@@ -1,9 +1,8 @@
+import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import { Providers } from "./components/providers"
-import { EB_Garamond } from "next/font/google"
-import { cn } from "@/utils"
+import { EB_Garamond, Inter } from "next/font/google"
 
+import { Providers } from "@/components/providers"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
