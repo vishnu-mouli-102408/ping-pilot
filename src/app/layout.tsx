@@ -12,8 +12,9 @@ const eb_garamond = EB_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: "jStack App",
-  description: "Created using jStack",
+  title: "Ping Pilot",
+  description:
+    "Ping Pilot is a versatile API-based platform designed to streamline notifications across popular social media channels. With Ping Pilot, developers can easily integrate APIs to trigger real-time alerts and updates on platforms like Discord, Telegram, SMS, and more. Perfect for automated messaging, user engagement, and broadcast notifications, Ping Pilot simplifies multi-channel notifications with minimal setup. Enhance your app's communication capabilities and reach your audience wherever they are with Ping Pilot's powerful notification APIs.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 }
 
