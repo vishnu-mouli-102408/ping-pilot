@@ -1,6 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  font-family: var(--font-poppins), var(--font-open-sans), var(--font-roboto),
+    sans-serif, -apple-system, Roboto, "Helvetica Neue", Arial, "Noto Sans";
+
+  font-display: "swap";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: hsl(var(--background));
+  border-radius: 8px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  color: hsl(var(--primary));
+  background-color: hsl(var(--primary-violet));
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsl(var(--background));
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -10,6 +44,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
     --primary: 0 0% 9%;
+    --primary-violet: 240, 100%, 50%;
     --primary-foreground: 0 0% 98%;
     --secondary: 0 0% 96.1%;
     --secondary-foreground: 0 0% 9%;
@@ -27,7 +62,7 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -53,7 +88,7 @@
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
 @layer base {
