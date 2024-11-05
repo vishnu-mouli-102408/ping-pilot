@@ -16,7 +16,7 @@ export default async function Home() {
                 <span className="leading-normal">Real-Time SaaS Insights</span>
                 <br />
                 <span className="relative bg-gradient-to-r from-brand-300 to-brand-600 text-transparent bg-clip-text">
-                  Tailored for Your Online Interactions
+                  Tailored For Your Online Interactions
                 </span>
               </Heading>
             </div>

@@ -14,7 +14,7 @@ export default function Navbar({}: Props) {
   const user = false
 
   return (
-    <header className="sticky inset-x-0 transition-all border-b border-gray-800 top-0 z-50 h-[70px] w-full bg-[#121212] px-14 backdrop-blur-lg">
+    <header className="sticky inset-x-0 transition-all border-b border-gray-800 top-0 z-50 h-[70px] w-full bg-[#02010a] px-14 backdrop-blur-lg">
       <MaxWidthWrapper>
         <Container reverse>
           <div className="mx-auto flex h-full items-center justify-between">
