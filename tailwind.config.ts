@@ -20,6 +20,14 @@ const config: Config = {
         poppins: ["var(--font-poppins)"],
         heading: ["var(--font-heading)", ...fontFamily.sans],
       },
+      backgroundImage: {
+        "custom-radial":
+          "radial-gradient(circle, #051937, #031c4a, #0f1e5d, #251c6d, #3e147b)",
+        "custom-gradient":
+          "radial-gradient(circle, #02142e, #081330, #0f1231, #161131, #1d0f31)",
+        "custom-gradient-2":
+          "radial-gradient(circle, #010d1f, #060b1c, #090919, #0b0716, #0c0613)",
+      },
       colors: {
         brand: {
           "25": "#F8F9FD",
