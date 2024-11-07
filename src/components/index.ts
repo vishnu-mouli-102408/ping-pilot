@@ -12,6 +12,7 @@ import { Providers } from "./providers"
 import TelegramUI from "./TelegramUI"
 import { MockTelegramUI } from "./TelegramUI/mock-telegram-ui"
 import { TelegramMessage } from "./TelegramUI/telegram-message"
+import { BlurText } from "./ui/blur-text"
 import { BorderBeam } from "./ui/border-beam"
 import { ContainerScroll } from "./ui/container-scroll-animation"
 import { GridBeam } from "./ui/grid-beam"
@@ -22,6 +23,7 @@ import { MockWhatsAppUI } from "./WhatsappUI/mock-whatsapp-ui"
 import { WhatsAppMessage } from "./WhatsappUI/whatsapp-message"
 
 export {
+  BlurText,
   BorderBeam,
   Container,
   ContainerScroll,

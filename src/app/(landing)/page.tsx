@@ -1,4 +1,5 @@
 import {
+  BlurText,
   BorderBeam,
   Container,
   GradientBorderButton,
@@ -6,7 +7,6 @@ import {
   MaxWidthWrapper,
   Spotlight,
 } from "@/components"
-import Heading from "@/components/Global/heading"
 import { Check } from "lucide-react"
 import Image from "next/image"
 
@@ -27,15 +27,15 @@ export default function Home() {
             <Container>
               <div className="relative mx-auto text-center flex flex-col items-center gap-10">
                 <div>
-                  <Heading className="text-brand-50">
-                    <span className="leading-normal">
-                      Real-Time SaaS Insights
-                    </span>
-                    <br />
-                    <span className="relative bg-gradient-to-r from-brand-300 to-brand-600 text-transparent bg-clip-text">
-                      Tailored For Your Online Interactions
-                    </span>
-                  </Heading>
+                  <BlurText
+                    className="leading-normal text-4xl sm:text-5xl text-pretty font-heading font-semibold tracking-tight text-brand-50"
+                    word="Real-Time SaaS Insights"
+                  />
+                  <br />
+                  <BlurText
+                    className="relative text-4xl sm:text-5xl text-pretty font-heading font-semibold tracking-tight  bg-gradient-to-r from-brand-300 to-brand-600 text-transparent bg-clip-text"
+                    word="Tailored For Your Online Interactions"
+                  />
                 </div>
                 <p className="text-lg/7 text-[#4cc9f0] max-w-prose text-center text-pretty">
                   Ping Pilot is the simplest way to monitor your SaaS. Receive
