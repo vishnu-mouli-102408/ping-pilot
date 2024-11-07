@@ -149,13 +149,13 @@ export const MockDiscordUI = ({ children }: PropsWithChildren) => {
         </div>
 
         {/* message history */}
-        <div className="flex-1 overflow-y-auto p-4 bg-discord-background flex flex-col-reverse">
+        <div className="flex-1 overflow-y-auto p-4 bg-[#36393e] flex flex-col-reverse">
           {children}
         </div>
 
         {/* message input */}
-        <div className="p-4">
-          <div className="flex items-center bg-[#40444b] rounded-lg p-1">
+        <div className="p-4 bg-[#424549] cursor-not-allowed">
+          <div className="flex items-center bg-[#282b30] rounded-lg p-1">
             <PlusCircle className="mx-3 text-[#b9bbbe] hover:text-white cursor-not-allowed" />
             <input
               readOnly

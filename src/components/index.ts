@@ -12,17 +12,24 @@ import { Providers } from "./providers"
 import TelegramUI from "./TelegramUI"
 import { MockTelegramUI } from "./TelegramUI/mock-telegram-ui"
 import { TelegramMessage } from "./TelegramUI/telegram-message"
+import { BorderBeam } from "./ui/border-beam"
+import { ContainerScroll } from "./ui/container-scroll-animation"
+import { GridBeam } from "./ui/grid-beam"
 import ShinyButton from "./ui/shiny-button"
+import { Spotlight } from "./ui/spotlight"
 import WhatsappUI from "./WhatsappUI"
 import { MockWhatsAppUI } from "./WhatsappUI/mock-whatsapp-ui"
 import { WhatsAppMessage } from "./WhatsappUI/whatsapp-message"
 
 export {
+  BorderBeam,
   Container,
+  ContainerScroll,
   DiscordMessage,
   DiscordUi,
   GradientBorderButton,
   GradientTransitionButton,
+  GridBeam,
   HoverShine,
   Icons,
   MaxWidthWrapper,
@@ -32,6 +39,7 @@ export {
   Navbar,
   Providers,
   ShinyButton,
+  Spotlight,
   TelegramMessage,
   TelegramUI,
   WhatsAppMessage,
