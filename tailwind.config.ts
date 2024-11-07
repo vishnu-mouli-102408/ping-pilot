@@ -31,6 +31,8 @@ const config: Config = {
           "radial-gradient(circle, #02142e, #081330, #0f1231, #161131, #1d0f31)",
         "custom-gradient-2":
           "radial-gradient(circle, #010d1f, #060b1c, #090919, #0b0716, #0c0613)",
+        "custom-black-gradient":
+          "radial-gradient(circle, #010408, #02050c, #05050f, #090511, #0f0412)",
       },
       colors: {
         brand: {

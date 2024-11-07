@@ -16,14 +16,9 @@ import { RightIcon } from "../../../public"
 export default function Home() {
   return (
     <div className="relative overflow-clip">
-      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
-      {/* <div className="absolute top-0 z-[-2] h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
       <GridBeam>
         <section className="relative py-24 sm:py-32">
-          {/* <Spotlight
-            className="-top-40 left-0 md:left-60 md:-top-20"
-            fill="white"
-          /> */}
+          <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="rgba(255, 255, 255, 0.5)"
@@ -84,6 +79,7 @@ export default function Home() {
       </GridBeam>
 
       <section className="relative  pb-4">
+        <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
         <div className="relative mx-auto -top-16 ">
           <MaxWidthWrapper className="relative">
             <Container delay={0.3}>
