@@ -33,6 +33,8 @@ const config: Config = {
           "radial-gradient(circle, #010d1f, #060b1c, #090919, #0b0716, #0c0613)",
         "custom-black-gradient":
           "radial-gradient(circle, #010408, #02050c, #05050f, #090511, #0f0412)",
+        "custom-card-bg":
+          "radial-gradient(circle, #140b2a, #120926, #100621, #0c041d, #080119)",
       },
       colors: {
         brand: {
@@ -101,9 +103,52 @@ const config: Config = {
       animation: {
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+        move: "move 5s linear infinite",
+        first: "moveVertical 30s ease infinite",
+        second: "moveInCircle 20s reverse infinite",
+        third: "moveInCircle 40s linear infinite",
+        fourth: "moveHorizontal 40s ease infinite",
+        fifth: "moveInCircle 20s ease infinite",
       },
-
       keyframes: {
+        moveHorizontal: {
+          "0%": {
+            transform: "translateX(-50%) translateY(-10%)",
+          },
+          "50%": {
+            transform: "translateX(50%) translateY(10%)",
+          },
+          "100%": {
+            transform: "translateX(-50%) translateY(-10%)",
+          },
+        },
+        moveInCircle: {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "50%": {
+            transform: "rotate(180deg)",
+          },
+          "100%": {
+            transform: "rotate(360deg)",
+          },
+        },
+        moveVertical: {
+          "0%": {
+            transform: "translateY(-50%)",
+          },
+          "50%": {
+            transform: "translateY(50%)",
+          },
+          "100%": {
+            transform: "translateY(-50%)",
+          },
+        },
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
+        },
         "border-beam": {
           "100%": {
             "offset-distance": "100%",
@@ -119,11 +164,20 @@ const config: Config = {
             transform: "translate(-50%,-40%) scale(1)",
           },
         },
+        ripple: {
+          "0%, 100%": {
+            transform: "translate(-50%, -50%) scale(1)",
+          },
+          "50%": {
+            transform: "translate(-50%, -50%) scale(0.9)",
+          },
+        },
       },
     },
   },
   plugins: [
     require("tailwindcss-animate"),
+    addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
         {
@@ -139,3 +193,14 @@ const config: Config = {
   ],
 }
 export default config
+
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"))
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  )
+
+  addBase({
+    ":root": newVars,
+  })
+}

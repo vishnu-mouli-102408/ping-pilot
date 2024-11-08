@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import "./styles.css"
+// import "./styles.css"
 
 interface ShinyButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   text: string
@@ -9,6 +9,7 @@ interface ShinyButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 function HoverShine({ text, className }: ShinyButtonProps) {
   return (
     <button
+      id="hover-shine"
       className={cn(
         "group cursor-pointer relative  w-[120px] h-[60px] bg-[linear-gradient(144deg,_#af40ff,_#5b42f3_50%,_#00ddeb)] text-white whitespace-nowrap flex flex-wrap rounded-lg overflow-hidden",
         className
