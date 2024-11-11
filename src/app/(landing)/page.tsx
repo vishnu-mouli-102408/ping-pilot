@@ -174,7 +174,7 @@ export default function Home() {
                           particles={true}
                           className="flex flex-col cursor-pointer p-10 text-white bg-custom-card-bg border-[1px] border-gray-700 items-start w-full row-span-1 "
                         >
-                          <div className="bento-card w-full flex-row gap-6">
+                          <div className="bento-card w-full h-full flex-row gap-6">
                             <div className="flex flex-col mt-auto">
                               <h4 className="text-xl font-heading font-medium heading">
                                 Track any Event
@@ -185,6 +185,7 @@ export default function Home() {
                                 you.
                               </p>
                             </div>
+                            <Icons.networkIcon />
                           </div>
                         </MagicCard>
                       </MovingBorderButton>
@@ -252,7 +253,8 @@ export default function Home() {
                           particles={true}
                           className="flex flex-col p-10 cursor-pointer text-white border-[1px] border-gray-700 bg-custom-card-bg items-start w-full row-span-1 "
                         >
-                          <div className="bento-card w-full flex-row gap-6">
+                          <div className="bento-card w-full h-full flex-row gap-6">
+                            {/* <Icons.integration className="h-[150px]" /> */}
                             <div className="flex flex-col mb-auto">
                               <h4 className="text-xl font-heading font-medium heading ">
                                 Seamless integrations
@@ -262,9 +264,18 @@ export default function Home() {
                                 streamline your workflow and save time.
                               </p>
                             </div>
-                            <div className="w-full h-28 relative">
-                              <div className="w-28 h-28 rounded-full bg-primary/10 blur-3xl -z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full"></div>
+                            <div className="flex flex-col mt-6 mb-auto">
+                              <h4 className="text-xl font-heading font-medium heading ">
+                                Integrations Made Easy
+                              </h4>
+                              <p className="text-sm md:text-base mt-2 text-muted-foreground">
+                                Connect your favorite tools and platforms to
+                                streamline your workflow and save time.
+                              </p>
                             </div>
+                            {/* <div className="w-full h-28 relative">
+                              <div className="w-28 h-28 rounded-full bg-primary/10 blur-3xl -z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full"></div>
+                            </div> */}
                           </div>
                         </MagicCard>
                       </MovingBorderButton>
