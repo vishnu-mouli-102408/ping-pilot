@@ -9,6 +9,8 @@ import Container from "./Global/container"
 import MaxWidthWrapper from "./Global/wrapper"
 import { Icons } from "./Icons"
 import Navbar from "./Navbar"
+import Perks from "./perks"
+import Pricing from "./pricing"
 import { Providers } from "./providers"
 import TelegramUI from "./TelegramUI"
 import { MockTelegramUI } from "./TelegramUI/mock-telegram-ui"
@@ -28,8 +30,10 @@ import {
 import { GridBeam } from "./ui/grid-beam"
 import { MagicCard } from "./ui/magic-card"
 import { Button, MovingBorder } from "./ui/moving-border"
+import NumberTicker from "./ui/number-ticker"
 import Particles from "./ui/particles"
 import Ripple from "./ui/ripple"
+import { SectionBadge } from "./ui/section-badge"
 import ShinyButton from "./ui/shiny-button"
 import { Spotlight } from "./ui/spotlight"
 import WhatsappUI from "./WhatsappUI"
@@ -64,9 +68,13 @@ export {
   MovingBorder,
   Button as MovingBorderButton,
   Navbar,
+  NumberTicker,
   Particles,
+  Perks,
+  Pricing,
   Providers,
   Ripple,
+  SectionBadge,
   ShinyButton,
   Spotlight,
   TelegramMessage,
