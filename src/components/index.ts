@@ -2,6 +2,7 @@ import CardDemo from "./blocks/cards-demo-3"
 import GradientBorderButton from "./Buttons/gradient-border-button"
 import GradientTransitionButton from "./Buttons/gradient-transition-button.tsx"
 import HoverShine from "./Buttons/hover-shine/hover-shine"
+import CTA from "./cta"
 import DiscordUi from "./DiscordUI"
 import { DiscordMessage } from "./DiscordUI/discord-message"
 import { MockDiscordUI } from "./DiscordUI/mock-discord-ui"
@@ -32,6 +33,7 @@ import { MagicCard } from "./ui/magic-card"
 import { Button, MovingBorder } from "./ui/moving-border"
 import NumberTicker from "./ui/number-ticker"
 import Particles from "./ui/particles"
+import RetroGrid from "./ui/retro-grid"
 import Ripple from "./ui/ripple"
 import { SectionBadge } from "./ui/section-badge"
 import ShinyButton from "./ui/shiny-button"
@@ -50,6 +52,7 @@ export {
   CardSpotlight,
   Container,
   ContainerScroll,
+  CTA,
   DiscordMessage,
   DiscordUi,
   GlowingStarsBackgroundCard,
@@ -73,6 +76,7 @@ export {
   Perks,
   Pricing,
   Providers,
+  RetroGrid,
   Ripple,
   SectionBadge,
   ShinyButton,

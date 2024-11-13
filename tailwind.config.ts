@@ -111,11 +111,16 @@ const config: Config = {
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
         "background-shine": "background-shine 2s linear infinite",
+        grid: "grid 15s linear infinite",
       },
       keyframes: {
         "background-shine": {
-          from: { backgroundPosition: "0 0" },
-          to: { backgroundPosition: "-200% 0" },
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
         },
         moveHorizontal: {
           "0%": {
@@ -151,8 +156,12 @@ const config: Config = {
           },
         },
         move: {
-          "0%": { transform: "translateX(-200px)" },
-          "100%": { transform: "translateX(200px)" },
+          "0%": {
+            transform: "translateX(-200px)",
+          },
+          "100%": {
+            transform: "translateX(200px)",
+          },
         },
         "border-beam": {
           "100%": {
@@ -175,6 +184,14 @@ const config: Config = {
           },
           "50%": {
             transform: "translate(-50%, -50%) scale(0.9)",
+          },
+        },
+        grid: {
+          "0%": {
+            transform: "translateY(-50%)",
+          },
+          "100%": {
+            transform: "translateY(0)",
           },
         },
       },
