@@ -41,7 +41,9 @@ export default function Navbar({}: Props) {
             ) : (
               <div className="flex gap-6">
                 <div className="flex gap-3">
-                  <HoverShine text="Pricing" className="py-2 h-12 " />
+                  <Link href={"#pricing"}>
+                    <HoverShine text="Pricing" className="py-2 h-12 " />
+                  </Link>
                   <SignOutButton>
                     <HoverShine text="Sign In" className="py-2 h-12" />
                   </SignOutButton>

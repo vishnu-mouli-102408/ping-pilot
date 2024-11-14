@@ -24,7 +24,10 @@ const Pricing = () => {
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading bg-gradient-to-r from-brand-300 to-[#b5179e] text-transparent bg-clip-text font-medium !leading-snug mt-6">
             Transparent pricing you can trust
           </h2>
-          <p className="text-base md:text-lg text-center text-[#4cc9f0] mt-6">
+          <p
+            id="pricing"
+            className="text-base md:text-lg text-center text-[#4cc9f0] mt-6"
+          >
             Choose the plan that works best for you. Transparent and
             straightforward pricing.
           </p>

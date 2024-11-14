@@ -300,7 +300,7 @@ export default function Home() {
         </MaxWidthWrapper>
       </section>
       <section
-        id="pricing"
+        // id="pricing"
         className="relative overflow-clip pb-24 sm:pb-32 text-white"
       >
         <div className="absolute inset-0 -z-10 h-full border-none w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
