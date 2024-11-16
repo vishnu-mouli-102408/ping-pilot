@@ -45,7 +45,9 @@ export default function Navbar({}: Props) {
                     <HoverShine text="Pricing" className="py-2 h-12 " />
                   </Link>
                   <SignOutButton>
-                    <HoverShine text="Sign In" className="py-2 h-12" />
+                    <Link href={"/sign-in"}>
+                      <HoverShine text="Sign In" className="py-2 h-12" />
+                    </Link>
                   </SignOutButton>
                 </div>
                 <div className="h-12 w-px bg-gray-600" />

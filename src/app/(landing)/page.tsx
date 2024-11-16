@@ -5,7 +5,6 @@ import {
   CardDemo,
   Container,
   CTA,
-  Footer,
   GradientBorderButton,
   GridBeam,
   Icons,
@@ -316,14 +315,6 @@ export default function Home() {
         <MaxWidthWrapper>
           <Container>
             <CTA />
-          </Container>
-        </MaxWidthWrapper>
-      </section>
-      <section className="relative overflow-clip pb-10  text-white">
-        <div className="absolute inset-0 -z-10 h-full border-none w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
-        <MaxWidthWrapper>
-          <Container>
-            <Footer />
           </Container>
         </MaxWidthWrapper>
       </section>
