@@ -51,10 +51,12 @@ export default function Navbar({}: Props) {
                   </SignOutButton>
                 </div>
                 <div className="h-12 w-px bg-gray-600" />
-                <GradientTransitionButton
-                  RightIcon={<FaArrowRightLong />}
-                  text="Sign Up"
-                />
+                <Link href={"/sign-up"}>
+                  <GradientTransitionButton
+                    RightIcon={<FaArrowRightLong />}
+                    text="Sign Up"
+                  />
+                </Link>
               </div>
             )}
           </div>

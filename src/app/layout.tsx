@@ -4,6 +4,7 @@ import { Open_Sans, Poppins, Roboto } from "next/font/google"
 
 import { Providers } from "@/components"
 import { ClerkProvider } from "@clerk/nextjs"
+import { dark } from "@clerk/themes"
 import "./globals.css"
 
 const openSans = Open_Sans({
@@ -52,8 +53,17 @@ export default function RootLayout({
         "antialiased"
       )}
     >
-      <body className="font-sans min-h-[calc(100vh-1px)] flex flex-col bg-brand-50 text-brand-950 antialiased">
-        <ClerkProvider>
+      <body className="font-sans min-h-[calc(100vh-1px)] flex flex-col bg-custom-black-gradient text-white antialiased">
+        <ClerkProvider
+          appearance={{
+            baseTheme: dark,
+            elements: {
+              footer: {
+                display: "none",
+              },
+            },
+          }}
+        >
           <main className="flex flex-col flex-1 relative">
             <Providers>{children}</Providers>
           </main>
