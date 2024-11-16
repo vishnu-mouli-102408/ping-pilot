@@ -8,6 +8,7 @@ import MaxWidthWrapper from "../Global/wrapper"
 const Footer = () => {
   return (
     <footer className="flex flex-col relative items-center justify-center border-t border-[#383333] pt-16 pb-8 md:pb-0  w-full px-auto mx-auto lg:pt-32 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/8%),transparent)]">
+      <div className="absolute top-0 left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-1.5 bg-[#FAFAFA] rounded-full"></div>
       <div className="absolute inset-0 -z-10 h-full border-none w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
       <MaxWidthWrapper>
         <div className="grid gap-8 xl:grid-cols-3 xl:gap-8 w-full">
