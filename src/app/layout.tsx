@@ -52,7 +52,7 @@ export default function RootLayout({
         "antialiased"
       )}
     >
-      <body className="font-sans min-h-[calc(100vh - 1px)] flex flex-col bg-brand-50 text-brand-950 antialiased">
+      <body className="font-sans min-h-[calc(100vh-1px)] flex flex-col bg-brand-50 text-brand-950 antialiased">
         <ClerkProvider>
           <main className="flex flex-col flex-1 relative">
             <Providers>{children}</Providers>
