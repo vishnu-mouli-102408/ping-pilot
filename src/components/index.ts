@@ -6,6 +6,7 @@ import CTA from "./cta"
 import DiscordUi from "./DiscordUI"
 import { DiscordMessage } from "./DiscordUI/discord-message"
 import { MockDiscordUI } from "./DiscordUI/mock-discord-ui"
+import Footer from "./footer"
 import Container from "./Global/container"
 import MaxWidthWrapper from "./Global/wrapper"
 import { Icons } from "./Icons"
@@ -38,10 +39,10 @@ import Ripple from "./ui/ripple"
 import { SectionBadge } from "./ui/section-badge"
 import ShinyButton from "./ui/shiny-button"
 import { Spotlight } from "./ui/spotlight"
+import { TextHoverEffect } from "./ui/text-hover-effect"
 import WhatsappUI from "./WhatsappUI"
 import { MockWhatsAppUI } from "./WhatsappUI/mock-whatsapp-ui"
 import { WhatsAppMessage } from "./WhatsappUI/whatsapp-message"
-
 export {
   AnimatedBeam,
   AnimatedBeamMultipleOutputDemo,
@@ -55,6 +56,7 @@ export {
   CTA,
   DiscordMessage,
   DiscordUi,
+  Footer,
   GlowingStarsBackgroundCard,
   GlowingStarsDescription,
   GlowingStarsTitle,
@@ -83,6 +85,7 @@ export {
   Spotlight,
   TelegramMessage,
   TelegramUI,
+  TextHoverEffect,
   WhatsAppMessage,
   WhatsappUI,
 }
