@@ -1,4 +1,5 @@
 import { SignOutButton } from "@clerk/nextjs"
+import { currentUser } from "@clerk/nextjs/server"
 import Image from "next/image"
 import Link from "next/link"
 import { FaArrowRightLong } from "react-icons/fa6"
@@ -10,8 +11,9 @@ import MaxWidthWrapper from "../Global/wrapper"
 
 type Props = {}
 
-export default function Navbar({}: Props) {
-  const user = false
+export default async function Navbar({}: Props) {
+  const user = await currentUser()
+  console.log("user", user)
 
   return (
     <header className="sticky inset-x-0 transition-all border-b border-gray-800 top-0 z-50 h-[70px] w-full bg-[#121212] px-14 backdrop-blur-lg">

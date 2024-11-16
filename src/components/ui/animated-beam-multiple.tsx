@@ -529,7 +529,7 @@ const Icons = {
       <defs>
         <path id="a" d="M.06 64V.04H64V64z"></path>
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <mask id="b" fill="#fff">
           <use xlinkHref="#a"></use>
         </mask>

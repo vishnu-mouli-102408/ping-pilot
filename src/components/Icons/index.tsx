@@ -387,7 +387,7 @@ export const Icons = {
       <defs>
         <path id="a" d="M.06 64V.04H64V64z"></path>
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <mask id="b" fill="#fff">
           <use xlinkHref="#a"></use>
         </mask>
@@ -580,18 +580,18 @@ export const Icons = {
       <path
         d="M814 288H1164"
         stroke="url(#paint0_linear_0_1)"
-        stroke-width="10"
+        strokeWidth="10"
       />
       <path
         d="M550 288H200"
         stroke="url(#paint1_linear_0_1)"
-        stroke-width="10"
+        strokeWidth="10"
       />
       <path
         d="M744.664 154H619C582.549 154 553 183.549 553 220V345.664C553 382.115 582.549 411.664 619 411.664H744.664C781.115 411.664 810.664 382.115 810.664 345.664V220C810.664 183.549 781.115 154 744.664 154Z"
         fill="url(#paint2_linear_0_1)"
         stroke="#D0A2FF"
-        stroke-width="8"
+        strokeWidth="8"
       />
       <g filter="url(#filter0_f_0_1)">
         <path
@@ -603,13 +603,13 @@ export const Icons = {
         d="M1314 185H1214C1187.49 185 1166 206.49 1166 233V333C1166 359.51 1187.49 381 1214 381H1314C1340.51 381 1362 359.51 1362 333V233C1362 206.49 1340.51 185 1314 185Z"
         fill="#26252E"
         stroke="url(#paint4_linear_0_1)"
-        stroke-width="4"
+        strokeWidth="4"
       />
       <path
         d="M150 185H50C23.4903 185 2 206.49 2 233V333C2 359.51 23.4903 381 50 381H150C176.51 381 198 359.51 198 333V233C198 206.49 176.51 185 150 185Z"
         fill="#26252E"
         stroke="url(#paint5_linear_0_1)"
-        stroke-width="4"
+        strokeWidth="4"
       />
       <g filter="url(#filter1_f_0_1)">
         <path
@@ -696,121 +696,121 @@ export const Icons = {
       </mask>
       <g mask="url(#mask0_0_1)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M760 277.954C760 318.848 725.269 352 682.427 352C639.585 352 604.855 318.848 604.855 277.954C604.855 237.059 639.585 203.907 682.427 203.907C725.269 203.907 760 237.059 760 277.954Z"
           fill="#4C5665"
         />
       </g>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M669.812 328.155C667.555 328.155 666.823 326.625 667.904 324.749L668.532 323.312C668.881 323.453 669.308 323.527 669.812 323.527C670.917 323.529 672.386 323.161 674.19 322.287L693.903 312.024C703.103 307.144 705.874 305.386 706.361 297.548L706.436 298.076C706.577 309.546 704.523 311.018 693.903 316.652L674.19 326.915C672.386 327.789 670.917 328.157 669.812 328.155ZM638.414 298.659C636.713 298.659 635.821 296.859 637.159 293.571C637.325 293.723 637.522 293.843 637.738 293.922C637.954 294.001 638.184 294.038 638.414 294.031C638.911 294.031 639.481 293.876 640.08 293.561C640.08 293.561 653.127 288.424 662.249 284.109C662.203 284.654 662.165 285.201 662.132 285.747C661.837 286.094 661.543 286.441 661.252 286.793C659.509 287.993 657.872 289.328 656.358 290.785C655.97 291.155 655.587 291.532 655.204 291.918C647.595 295.232 640.08 298.189 640.08 298.189C639.481 298.504 638.911 298.659 638.414 298.659Z"
         fill="#414A55"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M682.66 291.102C678.891 294.702 667.904 320.121 667.904 320.121C666.295 322.916 668.707 324.945 674.19 322.287L693.903 312.024C704.523 306.39 706.577 304.918 706.436 293.448L704.46 279.904C703.784 275.265 700.145 274.413 696.373 278.014L682.66 291.102ZM670.481 279.476C666.709 283.077 640.08 293.561 640.08 293.561C637.152 295.1 635.026 292.798 637.811 287.561L648.562 268.744C654.465 258.609 656.007 256.647 668.025 256.781L682.214 258.667C687.074 259.313 687.964 262.788 684.195 266.386L670.481 279.476Z"
         fill="#B85756"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M637.336 327.815C637.018 327.815 636.795 327.761 636.676 327.648C636.274 327.264 636.616 325.614 637.571 323.177C641.883 322.879 659.296 314.875 670.447 304.231C670.721 303.969 670.988 303.708 671.247 303.449L671.836 303.451C672.898 303.451 674.03 303.428 675.218 303.372C673.821 305.347 672.223 307.184 670.447 308.859C659.08 319.709 641.209 327.815 637.336 327.815Z"
         fill="#414A55"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M656.358 290.785C668.66 279.044 678.995 282.626 678.995 282.626C678.995 282.626 682.747 292.49 670.447 304.231C658.147 315.974 638.228 324.501 636.676 323.02C635.173 321.583 644.058 302.525 656.358 290.785Z"
         fill="#D5915B"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M666.644 280.966C678.944 269.226 689.278 272.81 689.278 272.81C689.278 272.81 693.033 282.672 680.733 294.415C668.43 306.156 648.513 314.683 646.962 313.202C645.457 311.767 654.343 292.707 666.644 280.966Z"
         fill="#F0CB83"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M675.218 303.372C676.398 301.688 677.271 300.077 677.911 298.573C677.946 298.569 677.981 298.566 678.015 298.564C677.228 300.068 676.413 301.692 675.601 303.354L675.218 303.372ZM706.409 293.254L705.799 289.068C707.507 287.85 709.122 286.516 710.63 285.076C723.594 272.701 728.573 255.909 729.25 245.434C729.999 254.867 725.737 275.283 710.63 289.704C709.303 290.971 707.893 292.157 706.409 293.254Z"
         fill="#414A55"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M675.601 303.354C676.413 301.692 677.227 300.068 678.015 298.564C686.34 297.861 696.752 295.519 705.798 289.068L706.409 293.254C696.332 300.697 684.437 302.905 675.601 303.354Z"
         fill="#974D4C"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M671.836 303.451L671.247 303.449C672.464 302.233 673.591 300.937 674.619 299.571C674.992 299.291 675.361 299.006 675.727 298.719C676.437 298.682 677.167 298.633 677.911 298.573C677.271 300.077 676.398 301.688 675.218 303.372C674.03 303.428 672.898 303.451 671.836 303.451Z"
         fill="#3A4048"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M671.247 303.449C670.503 303.442 669.798 303.426 669.133 303.4C671.011 302.19 672.841 300.912 674.619 299.571C673.591 300.937 672.465 302.233 671.247 303.449Z"
         fill="#AE7A51"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M669.133 303.4C668.862 303.391 668.592 303.38 668.321 303.365L674.505 298.775C674.905 298.761 675.315 298.742 675.727 298.719C673.604 300.374 671.404 301.936 669.133 303.4ZM662.113 297.442C662.014 295.552 661.999 293.659 662.067 291.768C662.152 294.075 662.343 295.878 662.489 296.981L662.113 297.442Z"
         fill="#C1A56E"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M710.63 285.076C691.697 303.15 662.673 298.203 662.673 298.203C662.673 298.203 657.493 270.501 676.428 252.429C695.36 234.354 724.045 232.431 727.812 236.027C731.463 239.514 729.565 267.004 710.63 285.076Z"
         fill="#DEDECA"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M652.3 315.072C651.789 315.072 651.258 314.84 650.676 314.285C650.179 313.811 649.929 313.373 649.869 312.95C653.078 312.034 658.501 309.666 664.35 306.313L655.817 312.649C654.506 313.901 653.451 315.072 652.3 315.072Z"
         fill="#AE7A51"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M649.869 312.95C649.694 311.763 650.993 310.71 652.39 309.377L662.113 297.442C662.292 300.785 662.673 302.831 662.673 302.831C662.673 302.831 664.816 303.197 668.321 303.365L664.35 306.313C658.501 309.666 653.078 312.034 649.869 312.95Z"
         fill="#C1A56E"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M668.321 303.365C664.816 303.197 662.673 302.831 662.673 302.831C662.673 302.831 662.292 300.785 662.113 297.442L662.489 296.981C662.593 297.773 662.673 298.203 662.673 298.203C662.673 298.203 666.304 298.823 671.836 298.823C672.682 298.823 673.574 298.807 674.505 298.775L668.321 303.365Z"
         fill="#9F895E"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M671.836 298.823C666.304 298.823 662.673 298.203 662.673 298.203C662.673 298.203 662.593 297.773 662.489 296.981L676.386 279.925C677.698 278.673 682.042 277.502 685.217 277.502C686.626 277.502 687.804 277.734 688.386 278.289C690.279 280.096 688.565 287.934 686.672 289.741L674.505 298.775C673.574 298.807 672.682 298.823 671.836 298.823Z"
         fill="#B3B2A4"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M655.817 308.021C653.924 309.828 652.569 311.464 650.676 309.657C648.782 307.85 650.496 306.556 652.39 304.749L676.386 275.297C678.28 273.49 686.493 271.854 688.386 273.661C690.279 275.469 688.565 283.308 686.672 285.115L655.817 308.021Z"
         fill="#B85756"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M700.861 275.987C698.289 275.986 695.822 275.01 694.004 273.274C692.186 271.537 691.165 269.183 691.165 266.728C691.166 264.273 692.188 261.918 694.007 260.183C695.826 258.447 698.293 257.472 700.865 257.473C703.437 257.474 705.904 258.449 707.722 260.186C709.54 261.922 710.561 264.277 710.561 266.732C710.56 269.187 709.538 271.542 707.719 273.277C705.899 275.013 703.433 275.987 700.861 275.987ZM714.574 258.269C713.288 258.269 712.055 257.781 711.146 256.914C710.236 256.046 709.726 254.868 709.726 253.641C709.726 252.414 710.236 251.237 711.146 250.369C712.055 249.501 713.288 249.013 714.574 249.013C715.86 249.013 717.093 249.501 718.002 250.369C718.911 251.237 719.422 252.414 719.422 253.641C719.422 254.868 718.911 256.046 718.002 256.914C717.093 257.781 715.86 258.269 714.574 258.269Z"
         fill="#B3B2A4"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M707.718 268.647C706.818 269.507 705.749 270.188 704.572 270.653C703.395 271.118 702.134 271.358 700.861 271.358C699.587 271.358 698.326 271.118 697.15 270.653C695.973 270.187 694.904 269.506 694.004 268.646C693.103 267.786 692.389 266.766 691.902 265.643C691.415 264.519 691.164 263.316 691.164 262.1C691.164 260.884 691.415 259.681 691.903 258.558C692.39 257.435 693.104 256.414 694.005 255.555C695.824 253.819 698.291 252.844 700.863 252.844C703.435 252.844 705.901 253.82 707.72 255.556C709.538 257.292 710.56 259.647 710.559 262.102C710.559 264.557 709.537 266.911 707.718 268.647ZM718.002 252.285C717.554 252.727 717.019 253.08 716.428 253.322C715.836 253.565 715.2 253.692 714.556 253.698C713.913 253.703 713.274 253.586 712.678 253.353C712.083 253.121 711.541 252.777 711.086 252.342C710.631 251.908 710.271 251.391 710.027 250.822C709.783 250.254 709.661 249.644 709.666 249.03C709.672 248.415 709.806 247.808 710.06 247.243C710.314 246.679 710.683 246.168 711.146 245.741C712.061 244.898 713.285 244.432 714.556 244.442C715.828 244.453 717.044 244.94 717.943 245.798C718.841 246.656 719.351 247.816 719.362 249.03C719.373 250.243 718.885 251.412 718.002 252.285Z"
         fill="#4C5665"
       />
-      <g clip-path="url(#clip0_0_1)">
+      <g clipPath="url(#clip0_0_1)">
         <path
           d="M100 233C69.6721 233 45 257.672 45 288C45 318.328 69.6721 343 100 343C130.328 343 155 318.328 155 288C155 257.672 130.328 233 100 233Z"
           fill="#2D98D4"
@@ -946,9 +946,9 @@ export const Icons = {
           width="565.664"
           height="565.664"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -967,9 +967,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -988,9 +988,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1009,9 +1009,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1030,9 +1030,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1051,9 +1051,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1072,9 +1072,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1093,9 +1093,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1114,9 +1114,9 @@ export const Icons = {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1135,9 +1135,9 @@ export const Icons = {
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1156,9 +1156,9 @@ export const Icons = {
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1177,9 +1177,9 @@ export const Icons = {
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1198,9 +1198,9 @@ export const Icons = {
           width="24"
           height="24"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -1220,8 +1220,8 @@ export const Icons = {
           y2="nan"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#711FEC" />
-          <stop offset="1" stop-color="#4F19D0" />
+          <stop stopColor="#711FEC" />
+          <stop offset="1" stopColor="#4F19D0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_0_1"
@@ -1231,8 +1231,8 @@ export const Icons = {
           y2="nan"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#000008" />
-          <stop offset="1" stop-color="#813AED" />
+          <stop stopColor="#000008" />
+          <stop offset="1" stopColor="#813AED" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_0_1"
@@ -1242,8 +1242,8 @@ export const Icons = {
           y2="415.664"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#9333EA" />
-          <stop offset="1" stop-color="#7C3AED" />
+          <stop stopColor="#9333EA" />
+          <stop offset="1" stopColor="#7C3AED" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_0_1"
@@ -1253,9 +1253,9 @@ export const Icons = {
           y2="410.664"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#383EEF" />
-          <stop offset="0.67" stop-color="#661EC8" />
-          <stop offset="1" stop-color="#421A87" />
+          <stop stopColor="#383EEF" />
+          <stop offset="0.67" stopColor="#661EC8" />
+          <stop offset="1" stopColor="#421A87" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_0_1"
@@ -1265,7 +1265,7 @@ export const Icons = {
           y2="283"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5D5558" stop-opacity="0.5" />
+          <stop stopColor="#5D5558" stopOpacity="0.5" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -1276,7 +1276,7 @@ export const Icons = {
           y2="283"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5D5558" stop-opacity="0.5" />
+          <stop stopColor="#5D5558" stopOpacity="0.5" />
           <stop offset="1" />
         </linearGradient>
         <linearGradient
@@ -1287,8 +1287,8 @@ export const Icons = {
           y2="325.918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#010101" stop-opacity="0.1" />
-          <stop offset="1" stop-color="#010101" stop-opacity="0" />
+          <stop stopColor="#010101" stopOpacity="0.1" />
+          <stop offset="1" stopColor="#010101" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_0_1"
@@ -1298,8 +1298,8 @@ export const Icons = {
           y2="311.242"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0.2" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" stopOpacity="0.2" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_0_1">
           <rect
@@ -1329,12 +1329,12 @@ export const Icons = {
           y1="50.968%"
           y2="48.804%"
         >
-          <stop offset="0%" stop-color="#70B"></stop>
-          <stop offset="100%" stop-color="#00008B"></stop>
+          <stop offset="0%" stopColor="#70B"></stop>
+          <stop offset="100%" stopColor="#00008B"></stop>
         </linearGradient>
         <linearGradient id="b" x1="0%" x2="100%" y1="49.999%" y2="49.999%">
-          <stop offset="0%" stop-color="#70B"></stop>
-          <stop offset="100%" stop-color="#00008B"></stop>
+          <stop offset="0%" stopColor="#70B"></stop>
+          <stop offset="100%" stopColor="#00008B"></stop>
           <stop offset="100%"></stop>
         </linearGradient>
         <linearGradient
@@ -1344,13 +1344,13 @@ export const Icons = {
           y1="94.764%"
           y2="22.318%"
         >
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="5.06%" stop-color="#93D1D5"></stop>
-          <stop offset="25.02%" stop-color="#BAD7C2"></stop>
-          <stop offset="44.81%" stop-color="#D8DBB3"></stop>
-          <stop offset="64.14%" stop-color="#EEDEA8"></stop>
-          <stop offset="82.79%" stop-color="#FBE0A2"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="5.06%" stopColor="#93D1D5"></stop>
+          <stop offset="25.02%" stopColor="#BAD7C2"></stop>
+          <stop offset="44.81%" stopColor="#D8DBB3"></stop>
+          <stop offset="64.14%" stopColor="#EEDEA8"></stop>
+          <stop offset="82.79%" stopColor="#FBE0A2"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="d"
@@ -1359,12 +1359,12 @@ export const Icons = {
           y1="3.715%"
           y2="104.363%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="e"
@@ -1373,12 +1373,12 @@ export const Icons = {
           y1="-45.808%"
           y2="106.587%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="f"
@@ -1387,12 +1387,12 @@ export const Icons = {
           y1="-9.898%"
           y2="104.376%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="g"
@@ -1401,12 +1401,12 @@ export const Icons = {
           y1="-.158%"
           y2="104.525%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="h"
@@ -1415,12 +1415,12 @@ export const Icons = {
           y1="-50.457%"
           y2="106.797%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="i"
@@ -1429,12 +1429,12 @@ export const Icons = {
           y1="-87.169%"
           y2="108.456%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="j"
@@ -1443,12 +1443,12 @@ export const Icons = {
           y1="-7.305%"
           y2="104.848%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="k"
@@ -1457,12 +1457,12 @@ export const Icons = {
           y1="-30.905%"
           y2="105.914%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="l"
@@ -1471,12 +1471,12 @@ export const Icons = {
           y1="-11.337%"
           y2="105.03%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="m"
@@ -1485,12 +1485,12 @@ export const Icons = {
           y1="-63.415%"
           y2="107.383%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="n"
@@ -1499,12 +1499,12 @@ export const Icons = {
           y1="-37.295%"
           y2="106.202%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="o"
@@ -1513,17 +1513,17 @@ export const Icons = {
           y1="98.561%"
           y2="1.547%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
         </linearGradient>
         <linearGradient id="p" x1="50%" x2="50%" y1="100.252%" y2="-4.339%">
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="5.06%" stop-color="#93D1D5"></stop>
-          <stop offset="25.02%" stop-color="#BAD7C2"></stop>
-          <stop offset="44.81%" stop-color="#D8DBB3"></stop>
-          <stop offset="64.14%" stop-color="#EEDEA8"></stop>
-          <stop offset="82.79%" stop-color="#FBE0A2"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="5.06%" stopColor="#93D1D5"></stop>
+          <stop offset="25.02%" stopColor="#BAD7C2"></stop>
+          <stop offset="44.81%" stopColor="#D8DBB3"></stop>
+          <stop offset="64.14%" stopColor="#EEDEA8"></stop>
+          <stop offset="82.79%" stopColor="#FBE0A2"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="q"
@@ -1532,10 +1532,10 @@ export const Icons = {
           y1="183.321%"
           y2="-55.799%"
         >
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="18.38%" stop-color="#98D1D2"></stop>
-          <stop offset="54.28%" stop-color="#C2D8BE"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="18.38%" stopColor="#98D1D2"></stop>
+          <stop offset="54.28%" stopColor="#C2D8BE"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="r"
@@ -1544,12 +1544,12 @@ export const Icons = {
           y1="110.138%"
           y2="-.829%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="s"
@@ -1558,12 +1558,12 @@ export const Icons = {
           y1="50.002%"
           y2="50.002%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="t"
@@ -1572,12 +1572,12 @@ export const Icons = {
           y1="49.953%"
           y2="49.953%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="u"
@@ -1586,12 +1586,12 @@ export const Icons = {
           y1="49.999%"
           y2="49.999%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="v"
@@ -1600,9 +1600,9 @@ export const Icons = {
           y1="50.014%"
           y2="50.014%"
         >
-          <stop offset="0%" stop-color="#270036"></stop>
-          <stop offset="59.36%" stop-color="#4F008B"></stop>
-          <stop offset="100%" stop-color="#4C24B1"></stop>
+          <stop offset="0%" stopColor="#270036"></stop>
+          <stop offset="59.36%" stopColor="#4F008B"></stop>
+          <stop offset="100%" stopColor="#4C24B1"></stop>
         </linearGradient>
         <linearGradient
           id="w"
@@ -1611,12 +1611,12 @@ export const Icons = {
           y1="99.65%"
           y2="-.974%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="x"
@@ -1625,12 +1625,12 @@ export const Icons = {
           y1="104.884%"
           y2="2.131%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="y"
@@ -1639,14 +1639,14 @@ export const Icons = {
           y1="101.625%"
           y2=".788%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="22.99%" stop-color="#3113C2"></stop>
-          <stop offset="34.79%" stop-color="#2F18C5"></stop>
-          <stop offset="49.31%" stop-color="#2927CC"></stop>
-          <stop offset="65.24%" stop-color="#1F40D8"></stop>
-          <stop offset="82.19%" stop-color="#1263E9"></stop>
-          <stop offset="99.78%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="22.99%" stopColor="#3113C2"></stop>
+          <stop offset="34.79%" stopColor="#2F18C5"></stop>
+          <stop offset="49.31%" stopColor="#2927CC"></stop>
+          <stop offset="65.24%" stopColor="#1F40D8"></stop>
+          <stop offset="82.19%" stopColor="#1263E9"></stop>
+          <stop offset="99.78%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="z"
@@ -1655,12 +1655,12 @@ export const Icons = {
           y1="106.85%"
           y2="-11.601%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="A"
@@ -1669,14 +1669,14 @@ export const Icons = {
           y1="105.46%"
           y2="-3.846%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="22.99%" stop-color="#3113C2"></stop>
-          <stop offset="34.79%" stop-color="#2F18C5"></stop>
-          <stop offset="49.31%" stop-color="#2927CC"></stop>
-          <stop offset="65.24%" stop-color="#1F40D8"></stop>
-          <stop offset="82.19%" stop-color="#1263E9"></stop>
-          <stop offset="99.78%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="22.99%" stopColor="#3113C2"></stop>
+          <stop offset="34.79%" stopColor="#2F18C5"></stop>
+          <stop offset="49.31%" stopColor="#2927CC"></stop>
+          <stop offset="65.24%" stopColor="#1F40D8"></stop>
+          <stop offset="82.19%" stopColor="#1263E9"></stop>
+          <stop offset="99.78%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="B"
@@ -1685,12 +1685,12 @@ export const Icons = {
           y1="49.999%"
           y2="49.999%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="C"
@@ -1699,8 +1699,8 @@ export const Icons = {
           y1="30.541%"
           y2="110.699%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
         </linearGradient>
         <linearGradient
           id="D"
@@ -1709,13 +1709,13 @@ export const Icons = {
           y1="94.797%"
           y2="22.221%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
-          <stop offset="57.94%" stop-color="#FBFCFF"></stop>
-          <stop offset="71.23%" stop-color="#F0F4FF"></stop>
-          <stop offset="84%" stop-color="#DEE7FF"></stop>
-          <stop offset="96.37%" stop-color="#C4D4FF"></stop>
-          <stop offset="100%" stop-color="#BBCDFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
+          <stop offset="57.94%" stopColor="#FBFCFF"></stop>
+          <stop offset="71.23%" stopColor="#F0F4FF"></stop>
+          <stop offset="84%" stopColor="#DEE7FF"></stop>
+          <stop offset="96.37%" stopColor="#C4D4FF"></stop>
+          <stop offset="100%" stopColor="#BBCDFF"></stop>
         </linearGradient>
         <linearGradient
           id="E"
@@ -1724,13 +1724,13 @@ export const Icons = {
           y1="92.974%"
           y2="22.353%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
-          <stop offset="57.94%" stop-color="#FBFCFF"></stop>
-          <stop offset="71.23%" stop-color="#F0F4FF"></stop>
-          <stop offset="84%" stop-color="#DEE7FF"></stop>
-          <stop offset="96.37%" stop-color="#C4D4FF"></stop>
-          <stop offset="100%" stop-color="#BBCDFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
+          <stop offset="57.94%" stopColor="#FBFCFF"></stop>
+          <stop offset="71.23%" stopColor="#F0F4FF"></stop>
+          <stop offset="84%" stopColor="#DEE7FF"></stop>
+          <stop offset="96.37%" stopColor="#C4D4FF"></stop>
+          <stop offset="100%" stopColor="#BBCDFF"></stop>
         </linearGradient>
         <linearGradient
           id="F"
@@ -1739,14 +1739,14 @@ export const Icons = {
           y1="9.526%"
           y2="106.511%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="63.46%" stop-color="#3113C2"></stop>
-          <stop offset="69.06%" stop-color="#2F18C5"></stop>
-          <stop offset="75.95%" stop-color="#2927CC"></stop>
-          <stop offset="83.51%" stop-color="#1F40D8"></stop>
-          <stop offset="91.55%" stop-color="#1263E9"></stop>
-          <stop offset="99.9%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="63.46%" stopColor="#3113C2"></stop>
+          <stop offset="69.06%" stopColor="#2F18C5"></stop>
+          <stop offset="75.95%" stopColor="#2927CC"></stop>
+          <stop offset="83.51%" stopColor="#1F40D8"></stop>
+          <stop offset="91.55%" stopColor="#1263E9"></stop>
+          <stop offset="99.9%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="G"
@@ -1755,8 +1755,8 @@ export const Icons = {
           y1="49.976%"
           y2="49.976%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
         </linearGradient>
         <linearGradient
           id="H"
@@ -1765,13 +1765,13 @@ export const Icons = {
           y1="49.953%"
           y2="49.953%"
         >
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="5.06%" stop-color="#93D1D5"></stop>
-          <stop offset="25.02%" stop-color="#BAD7C2"></stop>
-          <stop offset="44.81%" stop-color="#D8DBB3"></stop>
-          <stop offset="64.14%" stop-color="#EEDEA8"></stop>
-          <stop offset="82.79%" stop-color="#FBE0A2"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="5.06%" stopColor="#93D1D5"></stop>
+          <stop offset="25.02%" stopColor="#BAD7C2"></stop>
+          <stop offset="44.81%" stopColor="#D8DBB3"></stop>
+          <stop offset="64.14%" stopColor="#EEDEA8"></stop>
+          <stop offset="82.79%" stopColor="#FBE0A2"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="I"
@@ -1780,13 +1780,13 @@ export const Icons = {
           y1="49.981%"
           y2="49.981%"
         >
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="5.06%" stop-color="#93D1D5"></stop>
-          <stop offset="25.02%" stop-color="#BAD7C2"></stop>
-          <stop offset="44.81%" stop-color="#D8DBB3"></stop>
-          <stop offset="64.14%" stop-color="#EEDEA8"></stop>
-          <stop offset="82.79%" stop-color="#FBE0A2"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="5.06%" stopColor="#93D1D5"></stop>
+          <stop offset="25.02%" stopColor="#BAD7C2"></stop>
+          <stop offset="44.81%" stopColor="#D8DBB3"></stop>
+          <stop offset="64.14%" stopColor="#EEDEA8"></stop>
+          <stop offset="82.79%" stopColor="#FBE0A2"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="J"
@@ -1795,14 +1795,14 @@ export const Icons = {
           y1="4.879%"
           y2="129.838%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="63.46%" stop-color="#3113C2"></stop>
-          <stop offset="69.06%" stop-color="#2F18C5"></stop>
-          <stop offset="75.95%" stop-color="#2927CC"></stop>
-          <stop offset="83.51%" stop-color="#1F40D8"></stop>
-          <stop offset="91.55%" stop-color="#1263E9"></stop>
-          <stop offset="99.9%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="63.46%" stopColor="#3113C2"></stop>
+          <stop offset="69.06%" stopColor="#2F18C5"></stop>
+          <stop offset="75.95%" stopColor="#2927CC"></stop>
+          <stop offset="83.51%" stopColor="#1F40D8"></stop>
+          <stop offset="91.55%" stopColor="#1263E9"></stop>
+          <stop offset="99.9%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="K"
@@ -1811,12 +1811,12 @@ export const Icons = {
           y1="50.002%"
           y2="50.002%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="L"
@@ -1825,12 +1825,12 @@ export const Icons = {
           y1="10.963%"
           y2="107.325%"
         >
-          <stop offset="0%" stop-color="#3822D1"></stop>
-          <stop offset="16.52%" stop-color="#3527D3"></stop>
-          <stop offset="36.84%" stop-color="#2E36DA"></stop>
-          <stop offset="59.16%" stop-color="#214FE4"></stop>
-          <stop offset="82.72%" stop-color="#0F72F2"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#3822D1"></stop>
+          <stop offset="16.52%" stopColor="#3527D3"></stop>
+          <stop offset="36.84%" stopColor="#2E36DA"></stop>
+          <stop offset="59.16%" stopColor="#214FE4"></stop>
+          <stop offset="82.72%" stopColor="#0F72F2"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="M"
@@ -1839,13 +1839,13 @@ export const Icons = {
           y1="50.064%"
           y2="50.064%"
         >
-          <stop offset="0%" stop-color="#88CFDA"></stop>
-          <stop offset="5.06%" stop-color="#93D1D5"></stop>
-          <stop offset="25.02%" stop-color="#BAD7C2"></stop>
-          <stop offset="44.81%" stop-color="#D8DBB3"></stop>
-          <stop offset="64.14%" stop-color="#EEDEA8"></stop>
-          <stop offset="82.79%" stop-color="#FBE0A2"></stop>
-          <stop offset="100%" stop-color="#FFE1A0"></stop>
+          <stop offset="0%" stopColor="#88CFDA"></stop>
+          <stop offset="5.06%" stopColor="#93D1D5"></stop>
+          <stop offset="25.02%" stopColor="#BAD7C2"></stop>
+          <stop offset="44.81%" stopColor="#D8DBB3"></stop>
+          <stop offset="64.14%" stopColor="#EEDEA8"></stop>
+          <stop offset="82.79%" stopColor="#FBE0A2"></stop>
+          <stop offset="100%" stopColor="#FFE1A0"></stop>
         </linearGradient>
         <linearGradient
           id="N"
@@ -1854,12 +1854,12 @@ export const Icons = {
           y1="49.983%"
           y2="49.983%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="O"
@@ -1868,12 +1868,12 @@ export const Icons = {
           y1="1.985%"
           y2="94.537%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="P"
@@ -1882,12 +1882,12 @@ export const Icons = {
           y1="61.689%"
           y2="44.753%"
         >
-          <stop offset="0%" stop-color="#5E60FF"></stop>
-          <stop offset="18.14%" stop-color="#5963FF"></stop>
-          <stop offset="40.44%" stop-color="#4A6AFF"></stop>
-          <stop offset="64.91%" stop-color="#3177FF"></stop>
-          <stop offset="90.79%" stop-color="#0E89FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#5E60FF"></stop>
+          <stop offset="18.14%" stopColor="#5963FF"></stop>
+          <stop offset="40.44%" stopColor="#4A6AFF"></stop>
+          <stop offset="64.91%" stopColor="#3177FF"></stop>
+          <stop offset="90.79%" stopColor="#0E89FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="Q"
@@ -1896,12 +1896,12 @@ export const Icons = {
           y1="42.88%"
           y2="90.486%"
         >
-          <stop offset="0%" stop-color="#591DDB"></stop>
-          <stop offset="16.09%" stop-color="#52D"></stop>
-          <stop offset="35.89%" stop-color="#4931E1"></stop>
-          <stop offset="57.62%" stop-color="#364AE9"></stop>
-          <stop offset="80.58%" stop-color="#1B6DF4"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#591DDB"></stop>
+          <stop offset="16.09%" stopColor="#52D"></stop>
+          <stop offset="35.89%" stopColor="#4931E1"></stop>
+          <stop offset="57.62%" stopColor="#364AE9"></stop>
+          <stop offset="80.58%" stopColor="#1B6DF4"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="R"
@@ -1910,14 +1910,14 @@ export const Icons = {
           y1="1.389%"
           y2="104.286%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="22.99%" stop-color="#3113C2"></stop>
-          <stop offset="34.79%" stop-color="#2F18C5"></stop>
-          <stop offset="49.31%" stop-color="#2927CC"></stop>
-          <stop offset="65.24%" stop-color="#1F40D8"></stop>
-          <stop offset="82.19%" stop-color="#1263E9"></stop>
-          <stop offset="99.78%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="22.99%" stopColor="#3113C2"></stop>
+          <stop offset="34.79%" stopColor="#2F18C5"></stop>
+          <stop offset="49.31%" stopColor="#2927CC"></stop>
+          <stop offset="65.24%" stopColor="#1F40D8"></stop>
+          <stop offset="82.19%" stopColor="#1263E9"></stop>
+          <stop offset="99.78%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="S"
@@ -1926,9 +1926,9 @@ export const Icons = {
           y1="-19.469%"
           y2="140.878%"
         >
-          <stop offset="0%" stop-color="#270036"></stop>
-          <stop offset="59.36%" stop-color="#4F008B"></stop>
-          <stop offset="100%" stop-color="#4C24B1"></stop>
+          <stop offset="0%" stopColor="#270036"></stop>
+          <stop offset="59.36%" stopColor="#4F008B"></stop>
+          <stop offset="100%" stopColor="#4C24B1"></stop>
         </linearGradient>
         <linearGradient
           id="T"
@@ -1937,9 +1937,9 @@ export const Icons = {
           y1="-19.469%"
           y2="140.878%"
         >
-          <stop offset="0%" stop-color="#270036"></stop>
-          <stop offset="59.36%" stop-color="#4F008B"></stop>
-          <stop offset="100%" stop-color="#4C24B1"></stop>
+          <stop offset="0%" stopColor="#270036"></stop>
+          <stop offset="59.36%" stopColor="#4F008B"></stop>
+          <stop offset="100%" stopColor="#4C24B1"></stop>
         </linearGradient>
         <linearGradient
           id="U"
@@ -1948,14 +1948,14 @@ export const Icons = {
           y1="50.012%"
           y2="50.012%"
         >
-          <stop offset="0%" stop-color="#311341"></stop>
-          <stop offset="22.99%" stop-color="#3113C2"></stop>
-          <stop offset="34.79%" stop-color="#2F18C5"></stop>
-          <stop offset="49.31%" stop-color="#2927CC"></stop>
-          <stop offset="65.24%" stop-color="#1F40D8"></stop>
-          <stop offset="82.19%" stop-color="#1263E9"></stop>
-          <stop offset="99.78%" stop-color="#008FFF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#311341"></stop>
+          <stop offset="22.99%" stopColor="#3113C2"></stop>
+          <stop offset="34.79%" stopColor="#2F18C5"></stop>
+          <stop offset="49.31%" stopColor="#2927CC"></stop>
+          <stop offset="65.24%" stopColor="#1F40D8"></stop>
+          <stop offset="82.19%" stopColor="#1263E9"></stop>
+          <stop offset="99.78%" stopColor="#008FFF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="V"
@@ -1964,11 +1964,11 @@ export const Icons = {
           y1="49.975%"
           y2="49.975%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="11.06%" stop-color="#6640FF"></stop>
-          <stop offset="52.43%" stop-color="#2F6BFF"></stop>
-          <stop offset="83.31%" stop-color="#0D86FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="11.06%" stopColor="#6640FF"></stop>
+          <stop offset="52.43%" stopColor="#2F6BFF"></stop>
+          <stop offset="83.31%" stopColor="#0D86FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="W"
@@ -1977,8 +1977,8 @@ export const Icons = {
           y1="49.884%"
           y2="49.884%"
         >
-          <stop offset="0%" stop-color="#27004F"></stop>
-          <stop offset="100%" stop-color="#004C81"></stop>
+          <stop offset="0%" stopColor="#27004F"></stop>
+          <stop offset="100%" stopColor="#004C81"></stop>
         </linearGradient>
         <linearGradient
           id="X"
@@ -1987,8 +1987,8 @@ export const Icons = {
           y1="50.031%"
           y2="50.031%"
         >
-          <stop offset="0%" stop-color="#27004F"></stop>
-          <stop offset="100%" stop-color="#004C81"></stop>
+          <stop offset="0%" stopColor="#27004F"></stop>
+          <stop offset="100%" stopColor="#004C81"></stop>
         </linearGradient>
         <linearGradient
           id="Y"
@@ -1997,8 +1997,8 @@ export const Icons = {
           y1="50.008%"
           y2="50.008%"
         >
-          <stop offset="0%" stop-color="#27004F"></stop>
-          <stop offset="100%" stop-color="#004C81"></stop>
+          <stop offset="0%" stopColor="#27004F"></stop>
+          <stop offset="100%" stopColor="#004C81"></stop>
         </linearGradient>
         <linearGradient
           id="Z"
@@ -2007,8 +2007,8 @@ export const Icons = {
           y1="50.014%"
           y2="50.014%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
         </linearGradient>
         <linearGradient
           id="aa"
@@ -2017,13 +2017,13 @@ export const Icons = {
           y1="47.273%"
           y2="50.922%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="43.32%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="43.32%" stopColor="#FFF"></stop>
         </linearGradient>
         <linearGradient id="ab" x1=".003%" x2="99.998%" y1="50%" y2="50%">
-          <stop offset="0%" stop-color="#270036"></stop>
-          <stop offset="59.36%" stop-color="#4F008B"></stop>
-          <stop offset="100%" stop-color="#4C24B1"></stop>
+          <stop offset="0%" stopColor="#270036"></stop>
+          <stop offset="59.36%" stopColor="#4F008B"></stop>
+          <stop offset="100%" stopColor="#4C24B1"></stop>
         </linearGradient>
         <linearGradient
           id="ac"
@@ -2032,12 +2032,12 @@ export const Icons = {
           y1="98.505%"
           y2="14.794%"
         >
-          <stop offset="0%" stop-color="#7633FF"></stop>
-          <stop offset="15.85%" stop-color="#7137FF"></stop>
-          <stop offset="35.35%" stop-color="#6243FF"></stop>
-          <stop offset="56.76%" stop-color="#4957FF"></stop>
-          <stop offset="79.37%" stop-color="#2672FF"></stop>
-          <stop offset="100%" stop-color="#0090FF"></stop>
+          <stop offset="0%" stopColor="#7633FF"></stop>
+          <stop offset="15.85%" stopColor="#7137FF"></stop>
+          <stop offset="35.35%" stopColor="#6243FF"></stop>
+          <stop offset="56.76%" stopColor="#4957FF"></stop>
+          <stop offset="79.37%" stopColor="#2672FF"></stop>
+          <stop offset="100%" stopColor="#0090FF"></stop>
         </linearGradient>
         <linearGradient
           id="ad"
@@ -2046,14 +2046,14 @@ export const Icons = {
           y1="50.014%"
           y2="50.014%"
         >
-          <stop offset="0%" stop-color="#A1BAFF"></stop>
-          <stop offset="8.88%" stop-color="#ACC2FF"></stop>
-          <stop offset="49.88%" stop-color="#D9E3FF"></stop>
-          <stop offset="81.6%" stop-color="#F5F7FF"></stop>
-          <stop offset="100%" stop-color="#FFF"></stop>
+          <stop offset="0%" stopColor="#A1BAFF"></stop>
+          <stop offset="8.88%" stopColor="#ACC2FF"></stop>
+          <stop offset="49.88%" stopColor="#D9E3FF"></stop>
+          <stop offset="81.6%" stopColor="#F5F7FF"></stop>
+          <stop offset="100%" stopColor="#FFF"></stop>
         </linearGradient>
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <path
           fill="url(#a)"
           d="M38.79 1.42S-9.02 13.15 2.73 59c6.14 23.96 51.11 29.5 114.15 29.5 1.48 0 2.94-.01 4.41-.02 1.35.45 2.71.89 4.09 1.3 74.09 21.93 175.24.04 266.72-27.49 71.62-21.55 233.78-17.68 284.39-17.68 175.04 0 80.92-43.19 80.92-43.19H38.79Z"
@@ -2061,7 +2061,7 @@ export const Icons = {
         ></path>
         <path
           fill="#000640"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M734.23 448.4H300.01v-31.91h402.31z"
           opacity=".5"
         ></path>
@@ -2072,16 +2072,16 @@ export const Icons = {
         ></path>
         <path
           fill="url(#b)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M28.74 419.86h742.21s25.7-174.93-88.36-282.93-279.53-24.34-279.53-24.34-92.17-159.01-228.13-98.87C-45.16 111.07 28.74 419.86 28.74 419.86Z"
         ></path>
         <path
           fill="url(#c)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M155.51 52.09c-.09 0-.18-.01-.27-.01-13.9 0-25.17 11.27-25.17 25.17 0 13.9 11.27 25.17 25.17 25.17 13.9 0 25.17-11.27 25.17-25.17h-24.9V52.09Z"
           opacity=".8"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="url(#d)"
             d="M10.16 19.5h8.25v74.48h-8.25z"
@@ -2149,7 +2149,7 @@ export const Icons = {
             <path d="M227.57 172.13c-.19 0-.35-.45-.35-1s.16-1 .35-1c.19 0 .35.45.35 1-.01.55-.16 1-.35 1ZM227.57 180.79c-.19 0-.35-.97-.35-2.17s.16-2.17.35-2.17c.19 0 .35.97.35 2.17-.01 1.2-.16 2.17-.35 2.17ZM227.57 189.46c-.19 0-.35-.97-.35-2.17s.16-2.17.35-2.17c.19 0 .35.97.35 2.17-.01 1.2-.16 2.17-.35 2.17ZM227.57 198.13c-.19 0-.35-.97-.35-2.17s.16-2.17.35-2.17c.19 0 .35.97.35 2.17-.01 1.2-.16 2.17-.35 2.17ZM227.57 204.46c-.19 0-.35-.45-.35-1s.16-1 .35-1c.19 0 .35.45.35 1-.01.55-.16 1-.35 1Z"></path>
           </g>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#00759F"
             d="M285.17 409.05s-10.2 13.83-44.83 13c-25.24-.6-50.26-19.71-50.26-19.71s42.83-28.38 95.09 6.71Z"
@@ -2163,7 +2163,7 @@ export const Icons = {
             d="M283.69 409.93s-19.04-8.88-26.4-50.56c-5.37-30.38 11.48-64.96 11.48-64.96s44.33 44.45 14.92 115.52Z"
           ></path>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#00759F"
             d="M660.28 417.43s10.14 13.75 44.55 12.92c25.08-.6 49.94-19.59 49.94-19.59s-42.56-28.2-94.49 6.67Z"
@@ -2179,11 +2179,11 @@ export const Icons = {
         </g>
         <path
           fill="#83FFFF"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="m97.75 234.3 182.94-79.28 230.4 269.89L91.92 249.58"
           opacity=".3"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <g transform="translate(280 155)">
             <path fill="url(#o)" d="M.69.02h385.18v268.24H.69z"></path>
             <path fill="url(#p)" d="M27.91 15.64h342.78v146.13H27.91z"></path>
@@ -2244,19 +2244,19 @@ export const Icons = {
           cx="102.77"
           cy="439.2"
           fill="#000640"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           opacity=".5"
           rx="54.62"
           ry="8.03"
         ></ellipse>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="m108.75 256.43-7.28 31.98c-.2.87.39 1.73 1.28 1.85l22.66 3.25c.79.11 1.53-.4 1.71-1.17l7.28-31.97c.2-.87-.39-1.73-1.27-1.86l-22.66-3.25c-.8-.12-1.54.39-1.72 1.17Z"
         ></path>
         <path
           fill="url(#B)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M9.17 2.46 2.2 33.07l22.5 3.23 6.97-30.61z"
           transform="translate(101 255)"
         ></path>
@@ -2264,17 +2264,17 @@ export const Icons = {
           stroke="#A1D2F0"
           stroke-linecap="round"
           stroke-linejoin="round"
-          stroke-width="1.481"
+          strokeWidth="1.481"
         >
           <path d="m130.28 262.94-19.11-2.74M129.64 265.84l-19.12-2.75M121.68 268.24l-11.95-1.72M120.83 270.72l-11.95-1.71M119.98 273.21l-11.95-1.71M124.36 286.95l-11.94-1.71"></path>
         </g>
         <path
           fill="url(#C)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M36.03 68.78c1.28-.6 2.24-1.72 3.15-2.81l2.7-3.21c.36-.42.73-.89.77-1.44-1.51-.12-2.48 1.84-3.99 1.95.7-2.48 1.71-4.88 3-7.12.31-.55.65-1.18.43-1.77-1.63.62-3.01 1.78-4.19 3.06-.83.9-1.6 1.87-2.27 2.89-1.99 3.01-3.23 6.47-4.07 9.99"
           transform="translate(64 220)"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#F2A181"
             d="m93.58 333.9-7.04 16.14c2.97 5.01 4.68 10.93 4.91 16.92.12 3.12-.16 6.23-.07 9.35.01.22.04.46.09.68.94-4.62 1.65-8.43 1.92-10.9.77-6.94.77-17.97.53-32.21-.1 0-.22 0-.34.02Z"
@@ -2289,7 +2289,7 @@ export const Icons = {
             d="M90.4 436.83c.34-.59.43-1.47.11-1.69-.44-.3-2.02-1.34-2.93-1.76-.91-.42-2.36-.79-1.85-.51.51.28-.43 1.31-1.28 1.25-2.95-.18-5.12-2.14-6.8-2.56-2.42-.61-3.44-3.47-3.55-3.93-.46.29-1.52 2.6-1.74 3.32-.19.66-.55 1.85-.36 2.53.13.47.41 1.42.27 2.42 0 0 .48.37 1.74.63.8.17 1.88.03 1.88.03l.21-1.52s.66-.02 1.5.15c.84.17 2.21.97 2.29 1.07.34.4.61 1.14 1.05 1.36 1.18.59 2.37.88 3.87.97 3.16.16 5-.76 5.59-1.76Z"
           ></path>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="url(#E)"
             d="M38.63 137.53c-.35-.38-4.1-.99-5.85-1.73-1.67-.7-3.7-2.95-4.1-3.91-.4-.95-.3-5.79-.25-7.82.35-13.99 2.94-48.18 3.31-56.36.65-14.23-1.2-28.92-6.67-51.76L4.68.3S-1.03 10.91.88 21.06c1.11 5.89 5.99 6.79 6.82 9.08.83 2.29 13.16 39.18 13.16 39.18s-2.4 7.98-2.54 16.72c-.12 7.46 3.26 29.96 3.89 38.53.07 1.67.36 5.69-.13 6.96-.6 1.56-2.15 3.4-2.07 5.37.04 1.15.87 2.23 2.32 2.68 1.44.45 2.25-.39 2.75-.41 2.87-.12 3.67 1.86 8.63 1.85 1.53 0 3.75-.84 4.93-2.05.44-.43.34-1.05-.01-1.44Z"
@@ -2302,48 +2302,48 @@ export const Icons = {
         </g>
         <path
           fill="url(#F)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M13.79 79.17c-1.38 1.52-6.31 9.74-6.37 16.42-.05 6.69 2.33 10.98 2.54 12.37 1.56 10.22 3.08 22.54 3.08 23.21 0 .67 5.8 4.54 13.6 4.05 14.41-.91 20.01-4.68 20.01-4.68s-.68-24.75-2.9-36.95c-1.11-6.11-5.96-15.96-5.96-15.96"
           transform="translate(64 220)"
         ></path>
         <path
           fill="#FFF"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M64.64 272.45s2.32 11.53 2.93 13.58c.61 2.05 3.62 15.08 6.47 14.85 2.85-.23 18.48-13.27 18.48-13.27l-2.21-4.43-13.76 6.56s-1.24-14.89-2.33-18.44"
         ></path>
         <path
           fill="url(#G)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M5.96 59.55c1.46 5.15 4.44 10.57 5.33 14.57.18.8 9.71-2.66 9.73-6.24"
           transform="translate(64 220)"
         ></path>
         <path
           fill="#B03D44"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M68.74 265.74s-.5 9.63 1.24 14.49c1.72-.03 3.23-.43 3.23-.43l-4.47-14.06Z"
         ></path>
         <path
           fill="#FFF"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M95.76 226.24c2.75 3.56 2.21 8.58 1.53 13.03-.34 2.25-.69 4.5-1.03 6.75-.16 1.07-.38 2.24-1.21 2.93-.84.69-2.04.68-3.13.64l.03 5.59c-3.19.07-6.37.09-9.56.04 0-1.31-.29-2.61-.82-3.79-1.56-.03-2.6-1.59-3.21-3.03-.7-1.65-1.22-3.38-1.71-5.11-.66-2.29-1.29-4.62-1.35-7.01-.06-2.39.51-4.87 2.02-6.71 1.03-1.26 2.44-2.15 3.88-2.9 1.98-1.03 4.35-1.84 6.39-.94"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M92.99 234.41c.25.39.19.92.43 1.32.4.68.92.92 1.63 1.25 1.14.53.88 2.2.84 2.94.86-.57 1-2.14 1.21-2.93.23-.89.38-1.81.65-2.69.25-.86.69-1.67.77-2.58.28-3.13-1.68-6.81-4.06-8.56-1.73-1.28-4.36-1.23-6.31.07-.82.55-1.44 1.37-1.8 2.29-.16.39-.26.85-.07 1.23"
         ></path>
         <path
           fill="url(#H)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M13.65 36.51c.16-1.09.46-2.36 1.47-2.79.28-.12.59-.16.9-.19 3.11-.34 6.24-.49 9.36-.44 1.29.02 2.63.09 3.79.66 1.81.91 2.81 2.86 3.69 4.69"
           transform="translate(64 220)"
         ></path>
         <path
           fill="#B03D44"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M102.9 277.42c0 1.02-.57 2.39-.75 2.92-.71.37-3.53.97-5.15.23-.36-3.37-2.33-9.85-2.33-9.85s8.23 5.76 8.23 6.7Z"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#FFF"
             d="M99.28 275.07s9.34 22.56 13.39 22.56c2.95 0 10.17-20.83 10.17-20.83l-4.57-2.16-5.09 8.72-5.15-16.27"
@@ -2363,40 +2363,40 @@ export const Icons = {
         </g>
         <path
           fill="url(#I)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M38.91 59.18c3.01-.55 5.34-2.64 7.73-5.08-1.33-3.67-3.22-12.7-6.51-16.15-3.4-3.55-9.13-3.11-12.2-3.01-3.18-.14-5.8.24-9.6.41-2.53.11-5.05.41-7.53.95-.28.06-.56.13-.84.2v-.03s-4.56.49-6.88 2.26c-5.9 4.51-1.33 20.9-1.33 20.9s-.29.87 3.67.65c.67-.04 1.32-.1 1.94-.18 2.06 4.83 7.24 14.79 5.73 16.92-.39.55-1.38 1.61-1.5 2.3-.44 2.53 5.29 3.43 7.74 3.63 3.73.31 8.02.1 11.76-.07 2.84-.13 9.04-1.12 9.48-4.63.09-.69-.25-1.24-.59-1.74-.44-.64-1.44-1.41-1.8-2.12-.86-1.7-1.62-8.85-1.32-10.67.23-1.46 1.23-2.41 2.05-4.54Z"
           transform="translate(64 220)"
         ></path>
         <path
           fill="url(#J)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M29.39 135c-.92-5.94-6.6-24.34-6.84-24.85-3.1-2.4-5.14-4.88-6.17-6.88-.7 4.03 1.14 8.02 2.86 11.74 3.01 6.49 4.8 13.54 7.39 20.21"
           transform="translate(64 220)"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M92.47 243.22c-.38-1.87-.35-2.93.26-4.18.2-.41.47-.8.84-1.06.5-.35 1.15-.42 1.7-.18.36.16.65.45.86.8.65-2.51.79-5.19.6-7.8-.3-4.14-2.79-7.34-6.44-8.84-6.75-2.77-16.44-.03-19.18 6.59-2.07 5-1.02 12.22 2.94 16.42 3.51 3.71 8.55 4.26 13.21 3.49 2.38-.39 6.06-.16 7.29-3.4.1-.25-.12-.5-.37-.48-.97.08-1.64-1.01-1.71-1.36Z"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M79.31 246.14c-1.94-.55-4.04.54-5.34 2.1-1.5 1.79-2.14 4.58-.75 6.44.52.7 1.27 1.19 2.03 1.62 2.32 1.29 5.06 2.05 7.64 1.42 2.57-.63 4.83-2.94 4.8-5.59-.03-2.4-1.78-4.4-3.55-6.02"
         ></path>
         <path
           fill="#000640"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M670.81 442.12c0 5.87-23.84 10.63-53.24 10.63-29.4 0-53.24-4.76-53.24-10.63 0-5.87 23.83-10.63 53.24-10.63 29.41 0 53.24 4.76 53.24 10.63Z"
           opacity=".5"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="m600.05 264.45 7.06 31.01c.19.84-.38 1.67-1.24 1.8l-21.98 3.16c-.76.11-1.49-.39-1.66-1.14l-7.06-31.01c-.19-.85.38-1.68 1.24-1.8l21.98-3.15c.77-.12 1.49.38 1.66 1.13Z"
         ></path>
         <path
           fill="url(#K)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="m23.68 2.45 6.76 29.7-21.83 3.13-6.76-29.7z"
           transform="translate(575 263)"
         ></path>
@@ -2404,16 +2404,16 @@ export const Icons = {
           stroke="#A1D2F0"
           stroke-linecap="round"
           stroke-linejoin="round"
-          stroke-width="1.436"
+          strokeWidth="1.436"
         >
           <path d="m579.16 270.77 18.55-2.66M579.79 273.58l18.54-2.66M587.51 275.91l11.59-1.67M588.33 278.32l11.59-1.67M589.16 280.73l11.59-1.66M584.91 294.06l11.59-1.66"></path>
         </g>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M608.51 295.84c-1.24-.59-2.17-1.67-3.05-2.73-.87-1.04-1.75-2.08-2.62-3.12-.35-.41-.71-.86-.75-1.39 1.47-.12 2.41 1.78 3.87 1.89-.68-2.41-1.66-4.74-2.91-6.91-.3-.53-.63-1.15-.42-1.72 1.58.6 2.92 1.73 4.07 2.97.81.87 1.55 1.81 2.2 2.8 1.93 2.92 3.13 6.28 3.95 9.69"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#F2A181"
             d="m614.76 339.59 6.82 15.66c-2.88 4.86-4.54 10.6-4.76 16.41-.11 3.02.15 6.05.07 9.07-.01.21-.04.44-.09.66-.91-4.48-1.6-8.17-1.86-10.58-.75-6.73-.75-17.43-.51-31.24.11.01.22.01.33.02Z"
@@ -2427,48 +2427,48 @@ export const Icons = {
             d="M617.85 439.43c-.33-.57-.42-1.43-.11-1.64.43-.29 1.96-1.3 2.84-1.71.88-.41 2.29-.77 1.79-.5-.49.27.42 1.27 1.24 1.21 2.86-.17 4.97-2.08 6.6-2.48 2.35-.59 3.34-3.36 3.44-3.81.45.28 1.48 2.52 1.69 3.22.19.64.53 1.8.35 2.46-.12.46-.4 1.38-.26 2.34 0 0-.46.36-1.69.61-.78.16-1.82.02-1.82.02l-.2-1.48s-.64-.02-1.45.14c-.81.17-2.14.94-2.22 1.04-.33.39-.59 1.1-1.02 1.32-1.14.58-2.3.85-3.75.94-3.07.19-4.86-.7-5.43-1.68Z"
           ></path>
         </g>
-        <g fill="#000" fill-rule="nonzero">
+        <g fill="#000" fillRule="nonzero">
           <path d="M593.38 439.15c.34-.37 3.97-.96 5.68-1.68 1.62-.68 3.59-2.86 3.97-3.79.38-.93.29-5.62.25-7.59-.34-13.57-2.85-46.73-3.21-54.67-.63-13.8 1.16-28.05 6.47-50.21l19.78-15.18s5.54 10.3 3.68 20.14c-1.08 5.71-5.81 6.59-6.61 8.81-.8 2.22-12.76 38-12.76 38s2.33 7.74 2.46 16.21c.12 7.24-3.17 29.06-3.78 37.37-.07 1.63-.35 5.52.13 6.75.59 1.52 2.08 3.3 2.01 5.21-.04 1.11-.84 2.17-2.25 2.6-1.4.44-2.18-.38-2.66-.4-2.79-.12-3.56 1.8-8.37 1.8-1.48 0-3.64-.82-4.78-1.99-.45-.41-.35-1.01-.01-1.38Z"></path>
           <path d="M592.97 440.85c-.26-.62-.23-1.48.12-1.64.48-.22 2.2-.97 3.17-1.23.97-.26 2.47-.38 1.92-.2-.55.19.25 1.32 1.11 1.4 2.98.29 5.42-1.24 7.16-1.38 2.51-.2 3.43-2.78 3.6-3.21.42.35 1.66 2.73 1.77 3.46.11.66.29 1.86.01 2.49-.19.43-.61 1.3-.6 2.27 0 0-.53.28-1.83.33-.82.03-1.88-.27-1.88-.27v-1.49s-.66-.13-1.52-.09c-.87.03-1.93.47-2.45.87-.41.31-.84.83-1.32.95-1.39.35-2.39.45-3.91.3-3.18-.34-4.9-1.51-5.35-2.56Z"></path>
         </g>
         <path
           fill="url(#L)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M55.09 76.91c1.34 1.47 6.12 9.44 6.17 15.93.05 6.49-2.26 10.65-2.46 12-1.52 9.91 4.82 59.8 4.82 60.45 0 .65-8.07 7.18-15.6 8.04-16.54 1.89-32.14-5.2-32.14-5.2s2.84-38.28 10.15-77.23c1.11-5.92 5.78-15.48 5.78-15.48"
           transform="translate(575 229)"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M642.84 279.99s-2.25 11.18-2.84 13.17c-.59 1.99-3.51 14.63-6.28 14.41-2.77-.22-17.93-12.88-17.93-12.88l2.15-4.29 13.35 6.36s1.21-14.45 2.26-17.89"
         ></path>
         <path
           fill="#B03D44"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M638.86 273.49s.49 9.34-1.21 14.06c-1.67-.03-3.13-.41-3.13-.41l4.34-13.65Z"
         ></path>
         <path
           fill="#FFF"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M612.65 235.17c-2.67 3.46-2.14 8.32-1.48 12.64.33 2.18.66 4.37 1 6.55.16 1.04.37 2.17 1.18 2.84.81.67 1.98.66 3.03.62l-.03 5.42c3.09.07 6.18.09 9.27.04 0-1.27.28-2.53.8-3.68 1.51-.03 2.52-1.54 3.11-2.94.68-1.6 1.18-3.28 1.66-4.96.64-2.22 1.25-4.49 1.31-6.8.06-2.31-.49-4.72-1.96-6.51-1-1.22-2.37-2.08-3.77-2.81-1.92-1-4.22-1.79-6.2-.92"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M615.34 243.1c-.24.38-.19.89-.41 1.28-.38.66-.89.89-1.58 1.21-1.11.52-.85 2.13-.82 2.86-.84-.56-.97-2.07-1.17-2.85-.23-.86-.37-1.75-.63-2.61-.24-.84-.67-1.62-.75-2.5-.27-3.04 1.63-6.6 3.93-8.31 1.67-1.24 4.23-1.19 6.12.07.8.53 1.4 1.33 1.75 2.22.15.38.26.83.07 1.19"
         ></path>
         <path
           fill="url(#M)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M55.22 35.53c-.16-1.06-.44-2.29-1.43-2.71-.27-.12-.57-.15-.87-.18-3.02-.33-6.05-.48-9.08-.43-1.25.02-2.55.08-3.67.64-1.76.88-2.73 2.78-3.58 4.55"
           transform="translate(575 229)"
         ></path>
         <path
           fill="#B03D44"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M605.73 284.81c0 .99.55 2.31.73 2.84.69.35 3.43.94 5 .23.34-3.27 2.26-9.56 2.26-9.56s-7.99 5.58-7.99 6.49Z"
         ></path>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="#000"
             d="M609.24 282.53s-9.06 21.88-12.98 21.88c-2.86 0-9.87-20.2-9.87-20.2l4.43-2.1 4.94 8.46 5-15.78"
@@ -2488,40 +2488,40 @@ export const Icons = {
         </g>
         <path
           fill="#A600A9"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M605.71 286.52c-2.92-.54-5.18-2.56-7.5-4.93 1.29-3.55 3.12-12.32 6.31-15.66 3.29-3.44 8.85-3.02 11.83-2.92 3.08-.14 5.62.23 9.31.4 2.45.11 4.9.39 7.31.92.28.06.55.12.81.19l.01-.03s4.43.47 6.67 2.19c5.72 4.38 1.29 20.27 1.29 20.27s.28.85-3.56.63c-.65-.04-1.28-.1-1.88-.18-2 4.69-7.03 14.34-5.56 16.41.38.54 1.34 1.56 1.45 2.23.42 2.46-5.13 3.32-7.51 3.52-3.62.3-7.78.1-11.41-.07-2.75-.13-8.76-1.09-9.19-4.49-.08-.67.25-1.2.58-1.69.42-.62 1.39-1.37 1.74-2.05.84-1.65 1.57-8.58 1.28-10.35-.21-1.4-1.18-2.32-1.98-4.39Z"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M615.85 251.64c.36-1.82.34-2.84-.26-4.05-.2-.4-.46-.78-.81-1.03a1.71 1.71 0 0 0-1.65-.17c-.35.15-.63.43-.83.77-.63-2.44-.76-5.04-.58-7.57.29-4.02 2.71-7.12 6.25-8.58 6.55-2.69 15.95-.03 18.61 6.39 2.01 4.85.99 11.86-2.85 15.92-3.4 3.6-8.3 4.13-12.81 3.39-2.31-.38-5.88-.15-7.07-3.29-.09-.24.12-.49.36-.47.92.09 1.57-.97 1.64-1.31Z"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M628.61 254.48c1.89-.53 3.92.53 5.18 2.03 1.45 1.74 2.08 4.44.72 6.25-.51.68-1.23 1.16-1.97 1.57-2.25 1.25-4.91 1.99-7.41 1.37-2.5-.61-4.69-2.85-4.66-5.42.03-2.33 1.73-4.27 3.44-5.84"
         ></path>
         <path
           fill="#000"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M614.78 246.56s1.92.02-.59 6.4c-2.51 6.38-2.75 18.43-2.75 18.43s6.85 2.84 16.07 2.6c9.22-.24 10.16-.24 10.4-.95.24-.71 5.91-35.21-6.62-41.12"
         ></path>
         <ellipse
           cx="556.91"
           cy="491.69"
           fill="#000640"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           opacity=".5"
           rx="54.62"
           ry="8.03"
         ></ellipse>
-        <g fill="#000" fill-rule="nonzero">
+        <g fill="#000" fillRule="nonzero">
           <path d="M494.25 381.2h51.84l-2.24-4.97H492.2z"></path>
           <path d="M592.58 491.91h-6.14l-76.6-194.13h6.72z"></path>
           <path d="M483.24 353.33h51.84l-2.24-4.97h-51.65zM472.13 325.07h51.84l-2.24-4.98h-51.65zM537.32 491.91h-6.14l-76.6-194.13h6.73z"></path>
           <path d="M526.99 465.6h51.85l-2.24-4.97h-51.65zM516.08 437.33h51.84l-2.24-4.97h-51.65zM505.06 409.66h51.85l-2.24-4.97h-51.65z"></path>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="url(#N)"
             d="m66.36 31.37-1.9-3.95s-3.66 1.17-6.58 1.32c-2.92.15-4.09.73-4.09.73l-2.34 3.8s9.06 1.75 14.91-1.9Z"
@@ -2570,7 +2570,7 @@ export const Icons = {
             d="M503.28 174.9c.88.68 2.24 3.7 2.24 3.7s.99-2.89 2.24-2.34c3.12 1.36 2.14 5.46 1.66 6.33-.62 1.12 0 .29 0 .29l6.92 7.5-5.55 1.07-.2-1.36s-2.14.78-3.41.78-2.73-2.63-4.39-5.46c-1.66-2.83-3.31-10.43-3.31-10.43s2.93-.76 3.8-.08Z"
           ></path>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path
             fill="url(#U)"
             d="M76.39 25.04s15.32 0 20.63-.88l5.31-.88 19.63-2.47-1.75 6.26s-6.98 2.48-13.08 4.11c-6.11 1.63-17.96 4.83-19.8 5.29-1.84.45-11.77 2.56-11.77 2.56"
@@ -2627,7 +2627,7 @@ export const Icons = {
             d="M228.2 344.83s4.21-1.88 4.75-2.96.36-4.57.99-6.01c.63-1.44 3.41-5.29 3.95-5.29s.9.09.63 2.51-.9 5.38-.9 6.55.27 4.57-.54 5.56c-.81.99-2.33 1.34-3.41 1.88-1.08.54-5.11 1.35-5.11 1.35l-.36-3.59Z"
           ></path>
         </g>
-        <g fill-rule="nonzero">
+        <g fillRule="nonzero">
           <path fill="#005CB4" d="M112.94 108.84h83.53v6.43h-83.53z"></path>
           <path fill="#00759F" d="M153.1 122.5h83.53v6.43H153.1z"></path>
           <path fill="#4529AC" d="M55.92 134.54h148.91v6.43H55.92z"></path>
@@ -2643,7 +2643,7 @@ export const Icons = {
           <path fill="#00759F" d="M283.54 65.47h55.42v6.43h-55.42z"></path>
           <path fill="#313BAC" d="M310.85 83.14h65.05v6.43h-65.05z"></path>
         </g>
-        <g fill-rule="nonzero" transform="translate(228 288)">
+        <g fillRule="nonzero" transform="translate(228 288)">
           <circle cx="96.28" cy="95.79" r="95.34" fill="url(#ab)"></circle>
           <path
             fill="url(#ac)"
@@ -2652,7 +2652,7 @@ export const Icons = {
         </g>
         <path
           fill="url(#ad)"
-          fill-rule="nonzero"
+          fillRule="nonzero"
           d="M297.45 62.01c-2.92 0-5.65.8-7.99 2.19-.56-8.14-7.33-14.57-15.61-14.57-1.79 0-3.5.32-5.1.87-2.31-7.46-9.26-12.88-17.48-12.88-.62 0-1.23.04-1.83.1-7.68.48-14.07 5.68-16.29 12.75-1.61-.56-3.33-.88-5.13-.88-8.28 0-15.05 6.43-15.61 14.57a15.59 15.59 0 0 0-7.99-2.19c-8.65 0-15.66 7.01-15.66 15.65s7.01 15.65 15.66 15.65c.58 0 1.14-.03 1.71-.1h24.04c.7.08 1.41.14 2.14.14.63 0 1.25-.03 1.87-.09h34.33c.35.02.7.05 1.05.05.36 0 .7-.03 1.05-.05h25.13c.56.06 1.13.09 1.71.09 8.65 0 15.65-7.01 15.65-15.65.01-8.64-7-15.65-15.65-15.65Z"
           opacity=".3"
         ></path>
