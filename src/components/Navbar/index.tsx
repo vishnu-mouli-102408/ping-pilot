@@ -1,7 +1,10 @@
-import { SignOutButton } from "@clerk/nextjs"
-import { currentUser } from "@clerk/nextjs/server"
+"use client"
+
+import { SignOutButton, useClerk, useUser } from "@clerk/nextjs"
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { useState } from "react"
 import { FaArrowRightLong } from "react-icons/fa6"
 import { RocketIcon } from "../../../public"
 import GradientTransitionButton from "../Buttons/gradient-transition-button.tsx"
@@ -9,11 +12,24 @@ import HoverShine from "../Buttons/hover-shine/hover-shine"
 import Container from "../Global/container"
 import MaxWidthWrapper from "../Global/wrapper"
 
-type Props = {}
+export default function Navbar() {
+  const [isSigningOut, setIsSigningOut] = useState(false)
+  const { user, isSignedIn } = useUser()
+  const router = useRouter()
 
-export default async function Navbar({}: Props) {
-  const user = await currentUser()
-  console.log("user", user)
+  console.log("User:", user, isSignedIn)
+
+  const { signOut } = useClerk()
+
+  const handleLogout = async () => {
+    setIsSigningOut(true)
+    console.log("Logging out...")
+
+    await signOut()?.then(() => {
+      setIsSigningOut(false)
+    })
+    router.push("/")
+  }
 
   return (
     <header className="sticky inset-x-0 transition-all border-b border-gray-800 top-0 z-50 h-[70px] w-full bg-[#121212] px-14 backdrop-blur-lg">
@@ -30,11 +46,16 @@ export default async function Navbar({}: Props) {
               </p>
             </Link>
 
-            {user ? (
+            {isSignedIn ? (
               <div className="flex gap-4">
-                <SignOutButton>
-                  <HoverShine text="Sign Out" className="py-2 h-12" />
-                </SignOutButton>
+                <div onClick={handleLogout}>
+                  <HoverShine
+                    loading={isSigningOut}
+                    text="Sign Out"
+                    className="py-2 h-12"
+                  />
+                </div>
+
                 <GradientTransitionButton
                   RightIcon={<FaArrowRightLong />}
                   text="Dashboard"

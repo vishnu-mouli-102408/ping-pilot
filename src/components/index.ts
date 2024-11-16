@@ -8,6 +8,7 @@ import { DiscordMessage } from "./DiscordUI/discord-message"
 import { MockDiscordUI } from "./DiscordUI/mock-discord-ui"
 import Footer from "./footer"
 import Container from "./Global/container"
+import Heading from "./Global/heading"
 import MaxWidthWrapper from "./Global/wrapper"
 import { Icons } from "./Icons"
 import Navbar from "./Navbar"
@@ -63,6 +64,7 @@ export {
   GradientBorderButton,
   GradientTransitionButton,
   GridBeam,
+  Heading,
   HoverShine,
   Icons,
   MagicCard,
