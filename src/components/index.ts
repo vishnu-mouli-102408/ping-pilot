@@ -3,6 +3,7 @@ import GradientBorderButton from "./Buttons/gradient-border-button"
 import GradientTransitionButton from "./Buttons/gradient-transition-button.tsx"
 import HoverShine from "./Buttons/hover-shine/hover-shine"
 import CTA from "./cta"
+import TopHeader from "./dashboard/TopHeader"
 import DiscordUi from "./DiscordUI"
 import { DiscordMessage } from "./DiscordUI/discord-message"
 import { MockDiscordUI } from "./DiscordUI/mock-discord-ui"
@@ -44,6 +45,7 @@ import { TextHoverEffect } from "./ui/text-hover-effect"
 import WhatsappUI from "./WhatsappUI"
 import { MockWhatsAppUI } from "./WhatsappUI/mock-whatsapp-ui"
 import { WhatsAppMessage } from "./WhatsappUI/whatsapp-message"
+
 export {
   AnimatedBeam,
   AnimatedBeamMultipleOutputDemo,
@@ -88,6 +90,7 @@ export {
   TelegramMessage,
   TelegramUI,
   TextHoverEffect,
+  TopHeader,
   WhatsAppMessage,
   WhatsappUI,
 }

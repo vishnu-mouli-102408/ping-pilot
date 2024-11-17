@@ -55,11 +55,12 @@ export default function Navbar() {
                     className="py-2 h-12"
                   />
                 </div>
-
-                <GradientTransitionButton
-                  RightIcon={<FaArrowRightLong />}
-                  text="Dashboard"
-                />
+                <Link href={"/dashboard"}>
+                  <GradientTransitionButton
+                    RightIcon={<FaArrowRightLong />}
+                    text="Dashboard"
+                  />
+                </Link>
               </div>
             ) : (
               <div className="flex gap-6">
