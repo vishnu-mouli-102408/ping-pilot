@@ -1,3 +1,4 @@
+import { LoadingSpinner } from "@/components/LoadingSpinner"
 import { cn } from "@/lib/utils"
 // import "./styles.css"
 
@@ -17,14 +18,8 @@ function HoverShine({ text, className, loading }: ShinyButtonProps) {
       )}
     >
       {loading ? (
-        <div className="flex w-full flex-row items-center justify-center gap-2">
-          <div
-            style={{
-              backgroundImage:
-                "conic-gradient(from 0deg, violet, indigo 30%, blue 50%, green 60%, yellow 70%, orange 80%, red 100%)",
-            }}
-            className="w-8 h-8 rounded-full bg-radial bg-gradient-to-tr animate-spin [animation-delay:.7s]"
-          ></div>
+        <div className="flex w-full items-center justify-center">
+          <LoadingSpinner />
         </div>
       ) : (
         <>
