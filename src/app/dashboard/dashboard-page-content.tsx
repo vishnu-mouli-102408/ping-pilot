@@ -1,3 +1,5 @@
+"use client"
+
 import { LoadingSpinner } from "@/components/LoadingSpinner"
 import { client } from "@/lib/client"
 import { useQuery } from "@tanstack/react-query"
