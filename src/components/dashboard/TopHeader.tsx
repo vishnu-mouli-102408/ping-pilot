@@ -17,7 +17,7 @@ const TopHeader = ({
 }: TopHeaderProps) => {
   return (
     <section className="w-full text-white h-full flex flex-col flex-1">
-      <div className="p-6 sm:p-8 flex justify-between border-b border-gray-800">
+      <div className="p-6 sm:p-8 flex justify-between border-b border-gray-900">
         <div className="flex flex-col sm:flex-row sm:items-center gap-y-2 gap-x-8">
           {hideBackButton ? null : (
             <Button
