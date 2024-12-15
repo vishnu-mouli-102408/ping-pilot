@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Open_Sans, Poppins, Roboto } from "next/font/google"
 
 import { Providers } from "@/components"
+import { Toaster } from "@/components/ui/sonner"
 import { ClerkProvider } from "@clerk/nextjs"
 import { dark } from "@clerk/themes"
 import "./globals.css"
@@ -66,6 +67,7 @@ export default function RootLayout({
         >
           <main className="flex flex-col flex-1 relative">
             <Providers>{children}</Providers>
+            <Toaster richColors />
           </main>
         </ClerkProvider>
       </body>

@@ -1,6 +1,8 @@
-import { TopHeader } from "@/components"
+import { CreateEventCategoryModal, TopHeader } from "@/components"
+import { Button } from "@/components/ui/button"
 import { db } from "@/db"
 import { currentUser } from "@clerk/nextjs/server"
+import { PlusIcon } from "lucide-react"
 import { redirect } from "next/navigation"
 import DashboardPageContent from "./dashboard-page-content"
 
@@ -18,7 +20,17 @@ async function Page() {
   }
 
   return (
-    <TopHeader title="Dashboard Page">
+    <TopHeader
+      cta={
+        <CreateEventCategoryModal>
+          <Button className="w-full sm:w-fit">
+            <PlusIcon className="size-4 mr-2" />
+            Add Category
+          </Button>
+        </CreateEventCategoryModal>
+      }
+      title="Dashboard Page"
+    >
       <DashboardPageContent />
     </TopHeader>
   )

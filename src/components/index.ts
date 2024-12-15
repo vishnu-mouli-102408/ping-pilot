@@ -2,6 +2,7 @@ import CardDemo from "./blocks/cards-demo-3"
 import GradientBorderButton from "./Buttons/gradient-border-button"
 import GradientTransitionButton from "./Buttons/gradient-transition-button.tsx"
 import HoverShine from "./Buttons/hover-shine/hover-shine"
+import { Card } from "./card"
 import CTA from "./cta"
 import TopHeader from "./dashboard/TopHeader"
 import DiscordUi from "./DiscordUI"
@@ -12,6 +13,7 @@ import Container from "./Global/container"
 import Heading from "./Global/heading"
 import MaxWidthWrapper from "./Global/wrapper"
 import { Icons } from "./Icons"
+import CreateEventCategoryModal from "./modals/create-event-category-modal"
 import Navbar from "./Navbar"
 import Perks from "./perks"
 import Pricing from "./pricing"
@@ -32,6 +34,8 @@ import {
   GlowingStarsTitle,
 } from "./ui/glowing-stars"
 import { GridBeam } from "./ui/grid-beam"
+import { Input } from "./ui/input"
+import { Label } from "./ui/label"
 import { MagicCard } from "./ui/magic-card"
 import { Button, MovingBorder } from "./ui/moving-border"
 import NumberTicker from "./ui/number-ticker"
@@ -45,17 +49,18 @@ import { TextHoverEffect } from "./ui/text-hover-effect"
 import WhatsappUI from "./WhatsappUI"
 import { MockWhatsAppUI } from "./WhatsappUI/mock-whatsapp-ui"
 import { WhatsAppMessage } from "./WhatsappUI/whatsapp-message"
-
 export {
   AnimatedBeam,
   AnimatedBeamMultipleOutputDemo,
   BackgroundGradientAnimation,
   BlurText,
   BorderBeam,
+  Card,
   CardDemo,
   CardSpotlight,
   Container,
   ContainerScroll,
+  CreateEventCategoryModal,
   CTA,
   DiscordMessage,
   DiscordUi,
@@ -69,6 +74,8 @@ export {
   Heading,
   HoverShine,
   Icons,
+  Input,
+  Label,
   MagicCard,
   MaxWidthWrapper,
   MockDiscordUI,
