@@ -26,6 +26,7 @@ const TopHeader = ({
           <div className="flex items-center gap-8">
             {hideBackButton ? null : (
               <Button
+                onClick={() => router.push("/dashboard")}
                 variant={"outline"}
                 className="w-fit border-gray-800 hover:bg-white  hover:text-gray-300 transition-all duration-700 bg-custom-gradient"
               >
