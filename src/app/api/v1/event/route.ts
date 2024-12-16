@@ -1,6 +1,7 @@
 import { FREE_QUOTA, PRO_QUOTA } from "@/constants"
 import { ENTERPRISE_QUOTA } from "@/constants/quota"
 import { db } from "@/db"
+import { DiscordClient } from "@/lib/discord-client"
 // import { DiscordClient } from "@/lib/discord-client"
 import { CATEGORY_NAME_VALIDATOR } from "@/lib/validators/category-validator"
 import { NextRequest, NextResponse } from "next/server"
@@ -171,7 +172,7 @@ export const POST = async (req: NextRequest) => {
         data: { deliveryStatus: "FAILED" },
       })
 
-      console.log(err)
+      console.log("ERROR PROCESSING EVENT", err)
 
       return NextResponse.json(
         {
