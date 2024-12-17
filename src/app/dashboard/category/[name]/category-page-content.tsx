@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button"
 import {
   ColumnDef,
   ColumnFiltersState,
+  flexRender,
   getCoreRowModel,
   getFilteredRowModel,
   getPaginationRowModel,
@@ -27,6 +28,14 @@ import {
 import { ArrowUpDown } from "lucide-react"
 
 import { Card } from "@/components"
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table"
 import { cn } from "@/lib/utils"
 
 interface CategoryPageContentProps {
@@ -312,13 +321,16 @@ export const CategoryPageContent = ({
           </div>
         </div>
 
-        {/* <Card contentClassName="px-6 py-4">
+        <Card contentClassName="px-6 py-4">
           <Table>
             <TableHeader>
               {table.getHeaderGroups().map((headerGroup) => (
                 <TableRow key={headerGroup.id}>
                   {headerGroup.headers.map((header) => (
-                    <TableHead key={header.id}>
+                    <TableHead
+                      className="text-white capitalize"
+                      key={header.id}
+                    >
                       {header.isPlaceholder
                         ? null
                         : flexRender(
@@ -346,7 +358,7 @@ export const CategoryPageContent = ({
                 table.getRowModel().rows.map((row) => (
                   <TableRow key={row.id}>
                     {row.getVisibleCells().map((cell) => (
-                      <TableCell key={cell.id}>
+                      <TableCell className="text-white" key={cell.id}>
                         {flexRender(
                           cell.column.columnDef.cell,
                           cell.getContext()
@@ -359,7 +371,7 @@ export const CategoryPageContent = ({
                 <TableRow>
                   <TableCell
                     colSpan={columns.length}
-                    className="h-24 text-center"
+                    className="h-24 text-center text-white"
                   >
                     No results.
                   </TableCell>
@@ -367,7 +379,7 @@ export const CategoryPageContent = ({
               )}
             </TableBody>
           </Table>
-        </Card> */}
+        </Card>
       </div>
       <div className="flex items-center justify-end space-x-2 py-4">
         <Button
