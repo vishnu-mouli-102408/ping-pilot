@@ -7,6 +7,7 @@ import { useState } from "react"
 
 import { CheckIcon } from "lucide-react"
 import Image from "next/image"
+import { SuccessImage } from "../../../public"
 import { LoadingSpinner } from "../LoadingSpinner"
 import { Button } from "../ui/button"
 import { Modal } from "./modal"
@@ -57,7 +58,7 @@ export const PaymentSuccessModal = () => {
           <>
             <div className="relative aspect-video border border-gray-200 w-full overflow-hidden rounded-lg bg-gray-50">
               <Image
-                src="/brand-asset-heart.png"
+                src={SuccessImage}
                 className="h-full w-full object-cover"
                 alt="Payment success"
               />

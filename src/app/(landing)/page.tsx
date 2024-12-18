@@ -257,7 +257,6 @@ export default function Home() {
                           className="flex flex-col p-10 cursor-pointer text-white border-[1px] border-gray-700 bg-custom-card-bg items-start w-full row-span-1 "
                         >
                           <div className="bento-card w-full h-full flex-row gap-6">
-                            {/* <Icons.integration className="h-[150px]" /> */}
                             <div className="flex flex-col mb-auto">
                               <h4 className="text-xl font-heading font-medium heading ">
                                 Seamless integrations

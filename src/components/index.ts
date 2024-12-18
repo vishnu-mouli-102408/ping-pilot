@@ -43,7 +43,7 @@ import Particles from "./ui/particles"
 import RetroGrid from "./ui/retro-grid"
 import Ripple from "./ui/ripple"
 import { SectionBadge } from "./ui/section-badge"
-import ShinyButton from "./ui/shiny-button"
+
 import { Spotlight } from "./ui/spotlight"
 import { TextHoverEffect } from "./ui/text-hover-effect"
 import WhatsappUI from "./WhatsappUI"
@@ -92,7 +92,6 @@ export {
   RetroGrid,
   Ripple,
   SectionBadge,
-  ShinyButton,
   Spotlight,
   TelegramMessage,
   TelegramUI,
