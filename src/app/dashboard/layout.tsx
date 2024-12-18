@@ -8,6 +8,7 @@ import { UserButton } from "@clerk/nextjs"
 import { Gem, Home, Key, LucideIcon, Menu, Settings, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { PropsWithChildren, useState } from "react"
 import { RocketIcon } from "../../../public"
 
@@ -45,6 +46,9 @@ const SIDEBAR_ITEMS: SidebarCategory[] = [
 ]
 
 const Sidebar = ({ onClose }: { onClose?: () => void }) => {
+  const pathname = usePathname()
+  console.log("params", pathname)
+
   return (
     <div className="space-y-4 md:space-y-6 relative z-20 flex flex-col h-full">
       {/* logo */}
@@ -70,11 +74,14 @@ const Sidebar = ({ onClose }: { onClose?: () => void }) => {
                     href={item.href}
                     className={cn(
                       buttonVariants({ variant: "ghost" }),
-                      "w-full justify-start group flex items-center gap-x-2.5 rounded-md px-2 py-1.5 text-sm font-medium leading-6 text-zinc-400 hover:bg-[#f8f9fa] transition"
+                      "w-full justify-start mb-1 group flex items-center gap-x-2.5 rounded-md px-2 py-1.5 text-sm font-medium leading-6 text-zinc-400 hover:bg-[#f8f9fa] transition",
+                      item.href === pathname
+                        ? "bg-[#f8f9fa] text-zinc-900"
+                        : "text-zinc-400"
                     )}
                     onClick={onClose}
                   >
-                    <item.icon className="size-4 text-zinc-500 group-hover:text-zinc-700" />
+                    <item.icon className="size-4 text-zinc-700 group-hover:text-zinc-700" />
                     {item.text}
                   </Link>
                 ))}

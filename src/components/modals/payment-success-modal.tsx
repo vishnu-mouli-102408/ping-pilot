@@ -40,10 +40,10 @@ export const PaymentSuccessModal = () => {
       showModal={isOpen}
       setShowModal={setIsOpen}
       onClose={handleClose}
-      className="px-6 pt-6"
+      className="px-6 pt-6 bg-[#2b2d42] border-none"
       preventDefaultClose={!isPaymentSuccessful}
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col  items-center">
         {isPending || !isPaymentSuccessful ? (
           <div className="flex flex-col items-center justify-center h-64">
             <LoadingSpinner className="mb-4" />

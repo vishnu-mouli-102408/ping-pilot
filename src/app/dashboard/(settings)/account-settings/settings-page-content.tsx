@@ -8,6 +8,7 @@ import { client } from "@/lib/client"
 import { useMutation } from "@tanstack/react-query"
 import Link from "next/link"
 import { useState } from "react"
+import { toast } from "sonner"
 
 export const AccountSettings = ({
   discordId: initialDiscordId,
@@ -20,6 +21,9 @@ export const AccountSettings = ({
     mutationFn: async (discordId: string) => {
       const res = await client.project.setDiscordID.$post({ discordId })
       return await res.json()
+    },
+    onSuccess: () => {
+      toast.success("Discord ID updated successfully")
     },
   })
 
