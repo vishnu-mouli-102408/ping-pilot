@@ -1,5 +1,5 @@
 import { httpHandler } from "@/server"
 
-export const runtime = "node"
+export const runtime = "nodejs"
 
 export { httpHandler as GET, httpHandler as POST }
