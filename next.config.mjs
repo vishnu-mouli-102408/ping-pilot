@@ -20,10 +20,9 @@ const nextConfig = {
   
       // Analyze bundle size with @next/bundle-analyzer (optional)
       if (process.env.ANALYZE === 'true') {
-        const withBundleAnalyzer = require('@next/bundle-analyzer')({
-          enabled: true,
+        return import('@next/bundle-analyzer').then(({ default: withBundleAnalyzer }) => {
+          return withBundleAnalyzer({ enabled: true })(config);
         });
-        return withBundleAnalyzer(config);
       }
   
       return config;
