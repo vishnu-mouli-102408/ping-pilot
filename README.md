@@ -55,7 +55,7 @@ Ensure you have the following installed on your machine:
 5. **Start the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 6. **Open your browser:**
