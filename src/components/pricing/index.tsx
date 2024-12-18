@@ -4,10 +4,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 import { AnimatePresence, motion } from "framer-motion"
 import { CheckIcon } from "lucide-react"
-import Link from "next/link"
 
 import { PLANS } from "@/constants"
+import { client } from "@/lib/client"
 import { cn } from "@/lib/utils"
+import { useUser } from "@clerk/nextjs"
+import { useMutation } from "@tanstack/react-query"
+import Link from "next/link"
+import { useRouter } from "next/navigation"
 import Container from "../Global/container"
 import { Button } from "../ui/button"
 import NumberTicker from "../ui/number-ticker"
@@ -103,6 +107,29 @@ const Plan = ({
 
   const displayedPrice = getDisplayedPrice(plan, monthlyPrice, yearlyPrice)
 
+  const router = useRouter()
+  const { user } = useUser()
+
+  const { mutate: createCheckoutSession } = useMutation({
+    mutationFn: async (planName: "PRO" | "ENTERPRISE") => {
+      const res = await client.payment.createCheckoutSession.$post({
+        plan: planName,
+      })
+      return await res.json()
+    },
+    onSuccess: ({ url }) => {
+      if (url) router.push(url)
+    },
+  })
+
+  const handleGetAccess = (plan: string) => {
+    if (user) {
+      createCheckoutSession(plan === "pro" ? "PRO" : "ENTERPRISE")
+    } else {
+      router.push("/sign-in?intent=upgrade")
+    }
+  }
+
   return (
     <div
       key={index}
@@ -131,7 +158,7 @@ const Plan = ({
         />
         <div className="relative flex flex-col flex-1 align-top w-full p-3 h-full break-words text-left gap-4">
           <div className="flex items-end gap-2">
-            <div className="flex items-end gap-1 w-40">
+            <div className="flex items-end gap-1 w-48">
               <span className="text-3xl md:text-4xl font-bold">
                 $
                 {displayedPrice === 0 ? (
@@ -174,11 +201,12 @@ const Plan = ({
         </div>
         <div className="p-3 mt- h-auto flex w-full items-center">
           <Button
+            onClick={() => handleGetAccess(id)}
             asChild
             variant={id === "pro" ? "default" : "tertiary"}
             className="w-full hover:scale-100 hover:translate-y-0 shadow-none text-white"
           >
-            <Link href={""}>{buttonText}</Link>
+            <Link href={"#pricing"}>{buttonText}</Link>
           </Button>
         </div>
       </div>

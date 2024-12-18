@@ -13,7 +13,9 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
 
   const { mutate: createCheckoutSession } = useMutation({
     mutationFn: async () => {
-      const res = await client.payment.createCheckoutSession.$post()
+      const res = await client.payment.createCheckoutSession.$post({
+        plan: "PRO",
+      })
       return await res.json()
     },
     onSuccess: ({ url }) => {
@@ -32,14 +34,14 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
   return (
     <div className="max-w-3xl flex flex-col gap-8">
       <div>
-        <h1 className="mt-2 text-xl/8 font-medium tracking-tight text-gray-900">
+        <h1 className="mt-2 text-xl/8 font-medium tracking-tight text-gray-100">
           {plan === "PRO"
             ? "Plan: Pro"
             : plan === "ENTERPRISE"
             ? "Plan: Enterprise"
             : "Plan: Free"}
         </h1>
-        <p className="text-sm/6 text-gray-600 max-w-prose">
+        <p className="text-sm/6 text-gray-400 max-w-prose">
           {plan === "PRO" || plan === "ENTERPRISE"
             ? "Thank you for supporting PingPilot. Find your increased usage limits below."
             : "Get access to more events, categories and premium support."}
@@ -47,7 +49,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Card className="border-2 border-brand-700">
+        <Card className="border-2 border-slate-500 bg-[#000814]">
           <div className="flex flex-row items-center justify-between space-y-0 pb-2">
             <p className="text-sm/6 font-medium">Total Events</p>
             <BarChart className="size-4 text-muted-foreground" />
@@ -63,7 +65,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
             </p>
           </div>
         </Card>
-        <Card>
+        <Card className="bg-[#001219] border-2 border-gray-500">
           <div className="flex flex-row items-center justify-between space-y-0 pb-2">
             <p className="text-sm/6 font-medium">Event Categories</p>
             <BarChart className="size-4 text-muted-foreground" />
@@ -79,7 +81,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
         </Card>
       </div>
 
-      <p className="text-sm text-gray-500">
+      <p className="text-sm text-gray-300">
         Usage will reset{" "}
         {usageData?.resetDate ? (
           format(usageData.resetDate, "MMM d, yyyy")
@@ -91,8 +93,7 @@ export const UpgradePageContent = ({ plan }: { plan: Plan }) => {
             onClick={() => createCheckoutSession()}
             className="inline cursor-pointer underline text-brand-600"
           >
-            {" "}
-            or upgrade now to increase your limit &rarr;
+            &nbsp; or Upgrade now to Increase your Limit &rarr;
           </span>
         ) : null}
       </p>
