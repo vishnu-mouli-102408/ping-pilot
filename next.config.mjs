@@ -1,9 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    optimizeCss: true,
-    concurrentFeatures: true,
-  },
-}
+const nextConfig = {}
 
 export default nextConfig

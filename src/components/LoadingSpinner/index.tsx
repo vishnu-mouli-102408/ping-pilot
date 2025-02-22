@@ -22,7 +22,7 @@ interface LoadingSpinnerProps extends VariantProps<typeof spinnerVariants> {
 
 export const LoadingSpinner = ({ size, className }: LoadingSpinnerProps) => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex  justify-center items-center">
       <div className={spinnerVariants({ size, className })} />
     </div>
   )
