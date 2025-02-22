@@ -29,7 +29,7 @@ export const authRouter = router({
         data: {
           externalId: auth.id,
           email: auth.emailAddresses[0].emailAddress,
-          whatsappNumber: auth.phoneNumbers[0].phoneNumber ?? null,
+          whatsappNumber: auth.phoneNumbers?.[0]?.phoneNumber ?? null,
           quotaLimit: 100,
         },
       })
