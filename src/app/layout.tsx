@@ -3,9 +3,12 @@ import type { Metadata } from "next"
 import { Open_Sans, Poppins, Roboto } from "next/font/google"
 
 import { Providers } from "@/components"
+import { LoadingSpinner } from "@/components/LoadingSpinner"
+
 import { Toaster } from "@/components/ui/sonner"
 import { ClerkProvider } from "@clerk/nextjs"
 import { dark } from "@clerk/themes"
+import { Suspense } from "react"
 import "./globals.css"
 
 const openSans = Open_Sans({
@@ -65,10 +68,12 @@ export default function RootLayout({
             },
           }}
         >
-          <main className="flex flex-col flex-1 relative">
-            <Providers>{children}</Providers>
-            <Toaster richColors />
-          </main>
+          <Suspense fallback={<LoadingSpinner />}>
+            <main className="flex flex-col flex-1 relative">
+              <Providers>{children}</Providers>
+              <Toaster richColors />
+            </main>
+          </Suspense>
         </ClerkProvider>
       </body>
     </html>

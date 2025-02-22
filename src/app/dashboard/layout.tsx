@@ -52,12 +52,14 @@ const Sidebar = ({ onClose }: { onClose?: () => void }) => {
   return (
     <div className="space-y-4 md:space-y-6 relative z-20 flex flex-col h-full">
       {/* logo */}
-      <div className="flex items-center gap-2 z-40 font-semibold">
-        <Image src={RocketIcon} alt="Rocket Icon" className="size-10" />
-        <p className="text-lg text-[#4cc9f0]">
-          Ping<span className="text-[#e0aaff]">Pilot</span>
-        </p>
-      </div>
+      <Link href={"/"}>
+        <div className="flex items-center cursor-pointer gap-2 z-40 font-semibold">
+          <Image src={RocketIcon} alt="Rocket Icon" className="size-10" />
+          <p className="text-lg text-[#4cc9f0]">
+            Ping<span className="text-[#e0aaff]">Pilot</span>
+          </p>
+        </div>
+      </Link>
 
       {/* navigation items */}
       <div className="flex-grow">

@@ -65,7 +65,7 @@ export default function Navbar() {
             ) : (
               <div className="flex gap-6">
                 <div className="flex gap-3">
-                  <Link href={"#pricing"}>
+                  <Link href={"/#pricing"}>
                     <HoverShine text="Pricing" className="py-2 h-12 " />
                   </Link>
                   <SignOutButton>

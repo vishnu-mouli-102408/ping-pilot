@@ -135,7 +135,7 @@ const DashboardPageContent = () => {
                     variant: "ghost",
                     size: "sm",
                     className:
-                      "flex text-gray-200 bg-[#003049] hover:bg-[#14213d] hover:text-gray-100 border-none items-center gap-2 text-sm",
+                      "flex text-gray-200 bg-[#003049] hover:bg-[#003049] hover:text-gray-100 border-none items-center gap-2 text-sm",
                   })}
                 >
                   View all <ArrowRight className="size-4" />
