@@ -22,7 +22,7 @@ const Page = async () => {
   return (
     <TopHeader title="Account Settings">
       <AccountSettings
-        telegramUsername={user?.telegramUsername ?? ""}
+        apiKey={user?.apiKey ?? ""}
         whatsappNumber={user?.whatsappNumber ?? ""}
         discordId={user.discordId ?? ""}
       />

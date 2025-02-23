@@ -12,28 +12,26 @@ import { toast } from "sonner"
 
 export const AccountSettings = ({
   discordId: initialDiscordId,
-  telegramUsername: initialTelegramUsername,
+  apiKey,
   whatsappNumber: initialWhatsappNumber,
 }: {
   discordId: string
-  telegramUsername: string
+  apiKey: string
   whatsappNumber: string
 }) => {
   const [discordId, setDiscordId] = useState(initialDiscordId)
-  const [telegramUsername, setTelegramUsername] = useState(
-    initialTelegramUsername
-  )
+
   const [whatsappNumber, setWhatsappNumber] = useState(initialWhatsappNumber)
 
   const { mutate, isPending } = useMutation({
     mutationFn: async (data: {
       discordId: string
-      telegramUsername: string
+
       whatsappNumber: string
     }) => {
       const res = await client.project.updateAccountSettings.$post({
         discordId: data?.discordId,
-        telegramUsername: data?.telegramUsername,
+
         whatsappNumber: data?.whatsappNumber,
       })
       return await res.json()
@@ -74,29 +72,6 @@ export const AccountSettings = ({
         </div>
         <div>
           <div className="pt-2">
-            <Label>Telegram Username</Label>
-            <Input
-              className="mt-1 bg-[#edf2f4] text-gray-900"
-              value={telegramUsername}
-              onChange={(e) => setTelegramUsername(e.target.value)}
-              placeholder="Enter your Telegram Username"
-            />
-          </div>
-
-          <p className="mt-2 text-sm/6 text-gray-400">
-            Don&apos;t know how to find your Telegram Username?{" "}
-            <Link
-              href="https://clientdiary.com/knowledgebase/find-or-create-your-telegram-username-ios/"
-              target="_blank"
-              className="text-brand-500 hover:text-brand-500"
-            >
-              Learn how to obtain it here
-            </Link>
-            .
-          </p>
-        </div>
-        <div>
-          <div className="pt-2">
             <Label>Whatsapp Number</Label>
             <Input
               type="tel"
@@ -112,13 +87,24 @@ export const AccountSettings = ({
             />
           </div>
         </div>
+        <div>
+          <p className="mt-2 text-sm/6 text-gray-200">
+            Stay ahead! Activate our PingPilot Telegram bot to receive instant
+            notifications and alerts. Your events, at your fingertips.{" "}
+            <Link
+              href={`https://t.me/ping_pilot_bot?start=${apiKey}`}
+              target="_blank"
+              className="text-brand-500 hover:text-brand-600"
+            >
+              Click here to Start using PingPilot Telegram bot
+            </Link>
+          </p>
+        </div>
       </div>
 
       <div className="pt-4">
         <Button
-          onClick={() =>
-            mutate({ discordId, telegramUsername, whatsappNumber })
-          }
+          onClick={() => mutate({ discordId, whatsappNumber })}
           disabled={isPending}
         >
           {isPending ? "Saving..." : "Save Changes"}

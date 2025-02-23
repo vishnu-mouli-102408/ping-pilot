@@ -35,7 +35,7 @@ export const EmptyCategoryState = ({
     if (hasEvents) router.refresh()
   }, [hasEvents, router])
 
-  const codeSnippet = `await fetch('http://localhost:3000/api/events', {
+  const codeSnippet = `await fetch('https://pingpilot.vishnumouli.me/api/v1/event', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY'

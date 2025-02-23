@@ -62,18 +62,17 @@ export const projectRouter = router({
   updateAccountSettings: privateProcedure
     .input(
       z.object({
-        telegramUsername: z.string().max(20),
         whatsappNumber: z.string().max(20),
         discordId: z.string().max(20),
       })
     )
     .mutation(async ({ c, ctx, input }) => {
       const { user } = ctx
-      const { telegramUsername, whatsappNumber, discordId } = input
+      const { whatsappNumber, discordId } = input
 
       await db.user.update({
         where: { id: user.id },
-        data: { telegramUsername, whatsappNumber, discordId },
+        data: { whatsappNumber, discordId },
       })
 
       return c.json({ success: true })

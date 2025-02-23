@@ -6,6 +6,7 @@ import { DiscordClient } from "@/lib/discord-client"
 import { CATEGORY_NAME_VALIDATOR } from "@/lib/validators/category-validator"
 import { NextRequest, NextResponse } from "next/server"
 import { z } from "zod"
+import { sendTextMessage } from "../../telegram/route"
 
 const REQUEST_VALIDATOR = z
   .object({
@@ -51,6 +52,16 @@ export const POST = async (req: NextRequest) => {
       return NextResponse.json(
         {
           message: "Please enter your discord ID in your account settings",
+        },
+        { status: 403 }
+      )
+    }
+
+    if (!user?.telegramUsername) {
+      return NextResponse.json(
+        {
+          message:
+            "Telegram username not set. Please set your telegram username in your account settings to receive notifications",
         },
         { status: 403 }
       )
@@ -138,6 +149,20 @@ export const POST = async (req: NextRequest) => {
       ),
     }
 
+    const message = `
+			🎉 Event Notification 🎉
+
+			📌 Category: ${eventData.title}
+			📝 Description: ${eventData.description}
+			🎨 Color Code: ${eventData.color}
+			🕒 Timestamp: ${eventData.timestamp}
+
+			📌 Details:
+			${eventData.fields
+        .map((field) => `🔹 ${field.name}: ${field.value}`)
+        .join("\n")}
+`
+
     const event = await db.event.create({
       data: {
         name: category.name,
@@ -150,6 +175,8 @@ export const POST = async (req: NextRequest) => {
 
     try {
       await discord.sendEmbed(dmChannel.id, eventData)
+
+      await sendTextMessage(user.telegramUsername, message)
 
       await db.event.update({
         where: { id: event.id },
