@@ -1,4 +1,5 @@
 import { db } from "@/db"
+import { sendTextMessage } from "@/lib/telegram"
 import { NextResponse, type NextRequest } from "next/server"
 
 export const POST = async (req: NextRequest) => {
@@ -57,22 +58,4 @@ export const POST = async (req: NextRequest) => {
   }
 
   return NextResponse.json({ message: "Success", status: 200 })
-}
-
-export async function sendTextMessage(chatId: string, text: string) {
-  const res = await fetch(
-    `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text,
-      }),
-    }
-  )
-
-  return res.json()
 }
