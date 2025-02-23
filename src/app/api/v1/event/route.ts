@@ -2,6 +2,7 @@ import { FREE_QUOTA, PRO_QUOTA } from "@/constants"
 import { ENTERPRISE_QUOTA } from "@/constants/quota"
 import { db } from "@/db"
 import { DiscordClient } from "@/lib/discord-client"
+import { eventNotificationEmail, sendEmail } from "@/lib/email"
 import { sendTextMessage } from "@/lib/telegram"
 // import { DiscordClient } from "@/lib/discord-client"
 import { CATEGORY_NAME_VALIDATOR } from "@/lib/validators/category-validator"
@@ -177,6 +178,17 @@ export const POST = async (req: NextRequest) => {
       await discord.sendEmbed(dmChannel.id, eventData)
 
       await sendTextMessage(user.telegramUsername, message)
+
+      const emailTemplate = eventNotificationEmail(
+        "PingPilot Alert",
+        eventData?.title,
+        eventData?.description,
+        String(eventData?.color),
+        eventData?.timestamp,
+        eventData?.fields
+      )
+
+      await sendEmail(user.email, "PingPilot Alert", emailTemplate)
 
       await db.event.update({
         where: { id: event.id },
