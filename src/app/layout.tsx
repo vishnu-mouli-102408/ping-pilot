@@ -54,7 +54,7 @@ export default function RootLayout({
         poppins.variable,
         openSans.variable,
         roboto.variable,
-        "antialiased"
+        "antialiased dark"
       )}
     >
       <body className="font-sans min-h-[calc(100vh-1px)] flex flex-col bg-custom-black-gradient text-white antialiased">
