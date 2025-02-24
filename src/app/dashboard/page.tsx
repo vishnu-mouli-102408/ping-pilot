@@ -1,5 +1,6 @@
 import { CreateEventCategoryModal, TopHeader } from "@/components"
 import { PaymentSuccessModal } from "@/components/modals/payment-success-modal"
+import Popup from "@/components/Popup"
 import { Button } from "@/components/ui/button"
 import { db } from "@/db"
 import { createCheckoutSession } from "@/lib/stripe"
@@ -45,6 +46,7 @@ async function Page({ searchParams }: PageProps) {
 
   return (
     <>
+      <Popup />
       {success ? <PaymentSuccessModal /> : null}
       <TopHeader
         cta={
