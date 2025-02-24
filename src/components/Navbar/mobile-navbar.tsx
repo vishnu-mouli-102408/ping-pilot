@@ -37,7 +37,7 @@ const MobileNavbar = ({ handleLogout, isSigningOut }: MobileNavbarProps) => {
           <Button
             size="icon"
             variant="tertiary"
-            className="text-neutral-50 mr-2 rounded-full"
+            className="text-neutral-50  rounded-full"
           >
             <Menu className="w-6 h-6" />
           </Button>

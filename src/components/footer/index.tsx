@@ -7,7 +7,7 @@ import MaxWidthWrapper from "../Global/wrapper"
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col relative items-center justify-center border-t border-[#383333] pt-16 pb-8 md:pb-0  w-full px-auto mx-auto lg:pt-32 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/8%),transparent)]">
+    <footer className="flex flex-col relative items-center justify-center border-t border-[#383333] pt-10 md:pt-16  md:pb-0 w-full px-auto mx-auto lg:pt-32 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/8%),transparent)]">
       <div className="absolute top-0 left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-1.5 bg-[#FAFAFA] rounded-full"></div>
       <div className="absolute inset-0 -z-10 h-full border-none w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
       <MaxWidthWrapper>
@@ -20,7 +20,7 @@ const Footer = () => {
               <p className="text-muted-foreground mt-4 text-sm text-start">
                 Real Time SaaS Analytics
               </p>
-              <span className="mt-4 text-neutral-200 text-sm flex items-center">
+              <span className="md:mt-4 mt-2 text-neutral-200 text-sm flex items-center">
                 Made by{" "}
                 <Link
                   href="https://bento.me/mouli-ganivada"
@@ -33,10 +33,10 @@ const Footer = () => {
             </div>
           </Container>
 
-          <div className="grid-cols-2 gap-8 grid mt-16 xl:col-span-2 xl:mt-0">
+          <div className="grid-cols-2 gap-8 grid md:mt-16 mt-4 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <Container delay={0.2}>
-                <div className="">
+              {/* <Container className="h-[150px]" delay={0.2}>
+                <div>
                   <h3 className="text-base font-medium text-white">Product</h3>
                   <ul className="mt-4 text-sm text-muted-foreground">
                     <li className="mt-2">
@@ -73,32 +73,35 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </Container>
-              <Container delay={0.3}>
-                <div className="mt-10 md:mt-0 flex flex-col">
+              </Container> */}
+              <Container className="h-max" delay={0.3}>
+                <div className="md:mt-0 flex flex-col">
                   <h3 className="text-base font-medium text-white">
                     Integrations
                   </h3>
                   <ul className="mt-4 text-sm text-muted-foreground">
                     <li className="">
                       <Link
-                        href=""
+                        href="https://github.com/vishnu-mouli-102408"
+                        target="_blank"
                         className="hover:text-slate-300 transition-all duration-300"
                       >
-                        Facebook
+                        Github
                       </Link>
                     </li>
                     <li className="mt-2">
                       <Link
-                        href=""
+                        href="https://bento.me/mouli-ganivada"
+                        target="_blank"
                         className="hover:text-slate-300 transition-all duration-300"
                       >
-                        Instagram
+                        Portfolio
                       </Link>
                     </li>
                     <li className="mt-2">
                       <Link
-                        href=""
+                        href="https://x.com/iamVishnuMouli"
+                        target="_blank"
                         className="hover:text-slate-300 transition-all duration-300"
                       >
                         Twitter
@@ -106,7 +109,8 @@ const Footer = () => {
                     </li>
                     <li className="mt-2">
                       <Link
-                        href=""
+                        href="https://www.linkedin.com/in/ganivada-mouli/"
+                        target="_blank"
                         className="hover:text-slate-300 transition-all duration-300"
                       >
                         LinkedIn
@@ -117,7 +121,7 @@ const Footer = () => {
               </Container>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <Container delay={0.4}>
+              {/* <Container className="h-[150px]" delay={0.4}>
                 <div className="">
                   <h3 className="text-base font-medium text-white">
                     Resources
@@ -141,10 +145,10 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </Container>
-              <Container delay={0.5}>
-                <div className="mt-10 md:mt-0 flex flex-col">
-                  <h3 className="text-base font-medium text-white">Company</h3>
+              </Container> */}
+              <Container className="h-max" delay={0.5}>
+                <div className="md:mt-0 flex flex-col">
+                  <h3 className="text-base font-medium text-white">Contact</h3>
                   <ul className="mt-4 text-sm text-muted-foreground">
                     <li className="">
                       <Link
@@ -156,7 +160,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-2">
                       <Link
-                        href="/privacy"
+                        href=""
                         className="hover:text-slate-300 transition-all duration-300"
                       >
                         Privacy Policy
@@ -164,7 +168,7 @@ const Footer = () => {
                     </li>
                     <li className="mt-2">
                       <Link
-                        href="/terms"
+                        href="/"
                         className="hover:text-slate-300 transition-all duration-300"
                       >
                         Terms & Conditions
@@ -177,9 +181,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
+        <div className="md:mt-8 my-4 border-t border-border/40 md:pt-8 md:flex md:items-center md:justify-between w-full">
           <Container delay={0.6}>
-            <p className="text-sm text-muted-foreground mt-8 md:mt-0">
+            <p className="text-sm ml-2 md:ml-0 text-muted-foreground mt-8 md:mt-0">
               &copy; {new Date().getFullYear()} Ping Pilot INC. All rights
               reserved.
             </p>
