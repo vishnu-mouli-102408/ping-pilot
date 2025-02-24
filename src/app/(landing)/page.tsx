@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="relative overflow-clip">
       <GridBeam>
-        <section className="relative py-24 sm:py-32">
+        <section className="relative md:py-24 py-14 sm:py-32">
           <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
           <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
@@ -62,14 +62,14 @@ export default function Home() {
                   ]?.map((item, index) => (
                     <li
                       key={index}
-                      className="flex gap-1.5 items-center text-left"
+                      className="flex gap-1.5 sm:items-center items-start text-left"
                     >
-                      <Check className="size-5 shrink-0 text-[#3f37c9]" />
+                      <Check className="size-5 mt-[6px] shrink-0 text-[#3f37c9]" />
                       {item}
                     </li>
                   ))}
                 </ul>
-                <div className="w-full mb-10 max-w-80">
+                <div className="w-full sm:mb-10 mb-14 max-w-80">
                   <GradientBorderButton
                     rightIcon={
                       <Image
@@ -87,7 +87,7 @@ export default function Home() {
         </section>
       </GridBeam>
 
-      <section className="relative  pb-4">
+      <section className="relative pb-4">
         <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
         <div className="relative mx-auto -top-16 ">
           <MaxWidthWrapper className="relative">
@@ -102,7 +102,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-clip py-24 sm:py-32 text-white">
+      <section className="relative overflow-clip md:py-24 py-14 sm:py-32 text-white">
         <div className="absolute inset-0 -z-10 h-full border-none w-full items-center px-5 py-24 bg-custom-black-gradient"></div>
         <MaxWidthWrapper>
           <Container>
@@ -110,12 +110,12 @@ export default function Home() {
               <div className="bg-gradient-to-r from-brand-300 to-brand-600 text-transparent bg-clip-text text-2xl">
                 Smart Monitoring, Instant Updates
               </div>
-              <div className=" bg-gradient-to-r from-brand-300 to-[#b5179e] text-transparent bg-clip-text leading-tight font-semibold text-5xl text-center">
+              <div className=" bg-gradient-to-r from-brand-300 to-[#b5179e] text-transparent bg-clip-text leading-tight font-semibold sm:text-5xl text-4xl text-center">
                 Real-time insights and instant notifications for your SaaS.
               </div>
             </div>
           </Container>
-          <div className="mt-28 w-full">
+          <div className="md:mt-28 mt-14 w-full">
             <Container>
               <div className="mt-16 w-full">
                 <div className="flex flex-col items-center gap-5 lg:gap-5 w-full">
@@ -152,17 +152,6 @@ export default function Home() {
                           className="flex flex-col cursor-pointer  border-[1px] border-gray-700 text-white bg-custom-card-bg  items-start w-full "
                         >
                           <CardDemo />
-                          {/* <div className="bento-card w-full flex-row gap-6">
-                          <div className="flex flex-col">
-                            <h4 className="text-xl font-heading font-medium heading ">
-                              Instant Updates
-                            </h4>
-                            <p className="text-sm md:text-base mt-2 text-muted-foreground">
-                              Get notified about Critical Events the moment they
-                              happen no matter if you are at Home or on the go.
-                            </p>
-                          </div>
-                        </div> */}
                         </MagicCard>
                       </MovingBorderButton>
                     </div>
