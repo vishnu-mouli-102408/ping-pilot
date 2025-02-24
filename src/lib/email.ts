@@ -39,19 +39,7 @@ export const eventNotificationEmail = (
   return `
 	<div style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; border-radius: 10px;">
 	  <!-- Header -->
-	  <div style="text-align: center; padding: 10px 0;">
-			<div style="
-			display: flex; 
-			justify-content: center;
-			font-size:48px;
-			align-items: center; 
-			width: 80px; 
-			height: 80px; 
-			background-color: #084f5e; 
-			border-radius: 50%;
-		">
-		🚀
-		</div>
+	  
 		<h2 style="color: #333; margin-top: 10px;">🔔 ${eventType} Notification</h2>
 	  </div>
   
