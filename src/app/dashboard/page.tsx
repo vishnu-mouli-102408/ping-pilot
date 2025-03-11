@@ -9,6 +9,11 @@ import { PlusIcon } from "lucide-react"
 import { redirect } from "next/navigation"
 import DashboardPageContent from "./dashboard-page-content"
 
+export const metadata = {
+  title: "Dashboard",
+  description: "Dashboard page",
+}
+
 interface PageProps {
   searchParams: {
     [key: string]: string | string[] | undefined

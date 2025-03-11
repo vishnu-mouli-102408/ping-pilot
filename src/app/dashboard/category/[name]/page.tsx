@@ -4,6 +4,11 @@ import { currentUser } from "@clerk/nextjs/server"
 import { notFound } from "next/navigation"
 import { CategoryPageContent } from "./category-page-content"
 
+export const metadata = {
+  title: "Category",
+  description: "Category events page",
+}
+
 interface PageProps {
   params: {
     name: string | string[] | undefined
