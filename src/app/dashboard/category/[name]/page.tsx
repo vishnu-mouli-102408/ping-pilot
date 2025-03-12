@@ -15,6 +15,8 @@ interface PageProps {
   }
 }
 
+export const revalidate = 3600
+
 export async function generateStaticParams() {
   const response = await db.eventCategory.findMany()
   return response?.map((category) => {
