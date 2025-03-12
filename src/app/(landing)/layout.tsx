@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { type ReactNode } from "react"
 
 export const metadata: Metadata = {
-  title: "Ping Pilot Landing Page",
+  title: { absolute: "Ping Pilot" },
   description:
     "Ping Pilot Landing Page. A Modern Fullstack Event Monitoring SaaS.",
 }

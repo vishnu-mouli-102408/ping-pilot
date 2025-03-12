@@ -20,6 +20,7 @@ import { Check } from "lucide-react"
 import Image from "next/image"
 
 import AnimationUI from "@/components/AnimationUI"
+import AiChat from "@/components/Global/ai-chat"
 import { RightIcon, RocketIcon } from "../../../public"
 
 export default function Home() {
@@ -306,6 +307,7 @@ export default function Home() {
           </Container>
         </MaxWidthWrapper>
       </section>
+      <AiChat />
     </div>
   )
 }
