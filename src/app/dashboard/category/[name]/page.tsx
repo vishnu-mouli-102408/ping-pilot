@@ -15,6 +15,15 @@ interface PageProps {
   }
 }
 
+export async function generateStaticParams() {
+  const response = await db.eventCategory.findMany()
+  return response?.map((category) => {
+    return {
+      name: category.name,
+    }
+  })
+}
+
 const Page = async ({ params }: PageProps) => {
   if (typeof params.name !== "string") return notFound()
 
