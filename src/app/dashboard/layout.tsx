@@ -76,7 +76,7 @@ const Sidebar = ({ onClose }: { onClose?: () => void }) => {
                     href={item.href}
                     className={cn(
                       buttonVariants({ variant: "ghost" }),
-                      "w-full justify-start mb-1 group flex items-center gap-x-2.5 rounded-md px-2 py-1.5 text-sm font-medium leading-6 text-zinc-400 hover:bg-[#f8f9fa] transition",
+                      "w-full justify-start mb-1 group flex items-center gap-x-2.5 rounded-md px-2 py-1.5 text-sm transition-all duration-300 ease-in-out font-medium hover:text-black leading-6 text-zinc-400 hover:bg-[#f8f9fa]",
                       item.href === pathname
                         ? "bg-[#f8f9fa] text-zinc-900"
                         : "text-zinc-400"

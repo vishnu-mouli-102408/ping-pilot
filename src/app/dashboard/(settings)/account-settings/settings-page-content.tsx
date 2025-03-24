@@ -45,7 +45,7 @@ export const AccountSettings = ({
   })
 
   return (
-    <Card className="max-w-xl bg-[#003049] w-full space-y-4">
+    <Card className="max-w-xl p-4 bg-[#003049] w-full space-y-4">
       <div className="flex flex-col gap-4">
         <div>
           <div className="pt-2">

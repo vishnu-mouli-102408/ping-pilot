@@ -17,7 +17,7 @@ export const ApiKeySettings = ({ apiKey }: { apiKey: string }) => {
   }
 
   return (
-    <Card className="max-w-xl bg-[#003049] w-full">
+    <Card className="max-w-xl p-4 bg-[#003049] w-full">
       <div>
         <Label>Your API Key</Label>
         <div className="mt-1 relative">
